@@ -75,6 +75,8 @@ for count in range(startCaseNumber,endCaseNumber):
     case = case.replace('"', ' ')
     case = case.replace('\"', ' ')
     case = case.replace('>', ' ')
+    case = case.replace('(', ' ')
+    case = case.replace(')', ' ')
     case = case.replace('@', ' ')
     case = case.replace('<', ' ')
     case = case.replace(':', ' ')
@@ -114,7 +116,7 @@ for count in range(startCaseNumber,endCaseNumber):
         print(retWord)
         if (retWord):
             retWord = retWord.replace('"', '')
-            str += retWord+" ";
+            str += retWord+" "
             #print("skjhdksh");
             # echo "uni=>".$tempword."=>".$retWord."=>".$i."<br/>";
             #continue;
