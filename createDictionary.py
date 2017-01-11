@@ -339,6 +339,47 @@ for key in trigramCounts:
 len(finalTrigramFeatures)
 
 
+#find out the spacy.io
+import re
+def cleanupText(str):
+    str = str.strip();
+    str = re.sub('/[^A-Za-z0-9 _\-\+\&\,\#]/', '', str)
+    str = str.replace('"', ' ')
+    str = str.replace('\"', ' ')
+    str = str.replace(')', ' ')
+    str = str.replace('(', ' ')
+    str = str.replace('>', ' ')
+    str = str.replace('@', ' ')
+    str = str.replace('<', ' ')
+    str = str.replace(':', ' ')
+    str = str.replace('.', ' ')
+    str = str.replace('[', ' ')
+    str = str.replace(']', ' ')
+    str = str.replace('_', ' ')
+    str = str.replace(',', ' ')
+    str = str.replace('#', ' ')
+    str = str.replace('-', ' ')
+    str = str.replace('/', ' ')
+    str = str.replace('"', ' ')
+    str = str.replace('\n', ' ')
+    str = str.replace('~', ' ')
+    str = re.sub(r'\d+', ' ', str)
+    word_sent = [word for word in str.lower().split(" ") if word not in stopwordList and len(word)>1]
+    if (len(word_sent) > 2):
+        finalSent = ' '.join(word_sent)
+    else:
+        finalSent=''
+
+    return(finalSent.strip())
+
+
+
+
+
+
+
+
+
 len(unigrams)
 len(finalBigramFeatures)
 len(finalTrigramFeatures)

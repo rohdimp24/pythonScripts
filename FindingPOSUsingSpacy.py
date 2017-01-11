@@ -52,7 +52,7 @@ for idx, doc in enumerate(docs[1:10]):
 # for vp in doc.verb_chunks:
 #             print(vp.text,"..",vp.root.text)
 
-def cleanupText(str):
+def cleanupNounPhrase(str):
     str = str.strip();
     str = re.sub('/[^A-Za-z0-9 _\-\+\&\,\#]/', '', str)
     str = str.replace('"', ' ')
@@ -76,29 +76,35 @@ def cleanupText(str):
     str = str.replace('~', ' ')
     str = re.sub(r'\d+', ' ', str)
     word_sent = [word for word in str.lower().split(" ") if word not in stopwordList and len(word)>1]
-    if (len(word_sent) > 2):
+    if (len(word_sent) > 1):
         finalSent = ' '.join(word_sent)
     else:
         finalSent=''
 
     return(finalSent.strip())
 
+print(docs[1])
+'''
+This is the main function that is finding the noun phrases and creating a list of list. Basically for each case you first find the
+noun phrases and then check that the nounphrase doesnot have any stop words or they are bigrams or trigrams using the cleanupNounPhrase functons
 
-'''This is the main function that is finding the noun phrases and creating a list of list'''
+'''
 arrNounPhrase=[]
 for idx, doc in enumerate(docs):
+    #testDoc=docs[1]
     testDoc=doc
     token_nounPhrases = [np.text for np in testDoc.noun_chunks]
-
+    #print(token_nounPhrases)
     updatedNounPhrases=[]
     for tt in token_nounPhrases:
         # word_sent = [word for word in tt.lower().split(" ") if word not in stopwordList]
         # if(len(word_sent)>2):
         #     finalSent=' '.join(word_sent)
         #     updatedNounPhrases.append(finalSent)
-        finalSent=cleanupText(tt)
+        finalSent=cleanupNounPhrase(tt)
         if(len(finalSent)>0):
             updatedNounPhrases.append(finalSent)
+    #print(updatedNounPhrases)
     arrNounPhrase.append(updatedNounPhrases)
 
 print(arrNounPhrase)
