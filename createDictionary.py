@@ -550,3 +550,30 @@ this will be an additon to the esiting bigrams. We will pick up the bigrams that
 after this the normalization of the bigrams and the trigrams can be done using the normalized unigrams
 '''
 
+
+
+'''test reading the dictionary'''
+
+dictFile="/Users/305015992/pythonProjects/wordcloud/dict.csv"
+unigramDict={}
+ngramDict={}
+
+with open(dictFile, 'r') as csvfile:
+    posReader = csv.reader(csvfile, delimiter=',', quotechar='|')
+    for row in posReader:
+        print(row)
+        #check for the presenc eof space
+        if(len(row[0].split())>1):
+            str=row[0]
+            str=str.replace('"','')
+            ngramDict[str]=row[1].replace('"','')
+            #ngramDict[ll[1]]=ll[2].replace(" ","_")
+            #ngramDict[ll[1]].replace('"','')
+        else:
+            str=row[0].replace('"','')
+            #str=str[1:-1]
+            unigramDict[str]=row[1].replace('"','')
+            # unigramDict[str].replace('"','')
+
+
+print(ngramDict)
