@@ -164,6 +164,55 @@ unigrams=vocab
 
 #in addition to the unigrams found using the statistic count we need to add the POS variations as well
 
+#read from the file
+
+import csv
+posWords=[]
+posWordsDict={}
+with open("/Users/305015992/pythonProjects/wordcloud/posDist.csv", 'r') as csvfile:
+    posReader = csv.reader(csvfile, delimiter=',', quotechar='|')
+    for row in posReader:
+        ch=row[7].replace('"','')
+        if(ch=="N"):
+            str=row[1].replace('"', '')
+            posWords.append(str)
+            posWordsDict[str]=row[3].replace('"','')
+        if(ch=="J"):
+            str = row[1].replace('"', '')
+            posWords.append(str)
+            posWordsDict[str] = row[2].replace('"', '')
+
+#print(str[7])
+
+
+#print(len(posWords))
+print(posWordsDict)
+def my_in_array(word,wordlist):
+    # print(type(word))
+     for key in wordlist:
+        if(key==word):
+            return(True)
+     return(False)
+
+print(posWords)
+
+##normally we should not get any new word since the countvectorization is also looking for all the words. But I guess this list of pos is
+#trained on some other data source and so the words might be little different
+posWordsToBeAdded=[]
+minCount=np.amin(freqsum)
+print(minCount)
+for k in posWordsDict:
+    #print(k)
+    if (my_in_array(k,unigrams)==False):
+        if(my_in_array(k,stopwordList)==False):
+            #print(posWordsDict[k])
+            if(int(posWordsDict[k])>minCount):
+                print(k,posWordsDict[k])
+                posWordsToBeAdded.append(k)
+    #
+                freqDict[k]=int(posWordsDict[k])
+
+len(posWordsToBeAdded)
 
 
 def get_bigrams(myString):
@@ -445,3 +494,18 @@ import pickle
 output = open('outputDict.txt', 'ab+')
 pickle.dump(finalNgram, output,protocol=0)
 output.close()
+
+
+
+''''
+TO add the POS thing we need to add the identifyPOSFinalDist() and getPOSNotInUNigram() just after the unigrams have been identified.
+this will help in adding new unigrams
+
+after this the stemming and normalization of the unigram can be done
+
+as for the spacy pos we should do it after the list of bigrams and trigrams has been created. So that we have a new list of bigrams and trigrams
+this will be an additon to the esiting bigrams. We will pick up the bigrams that are frequent. In thr spacy code we will again make it as some frequent threshod
+
+after this the normalization of the bigrams and the trigrams can be done using the normalized unigrams
+'''
+
