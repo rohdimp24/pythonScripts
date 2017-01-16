@@ -1,9 +1,9 @@
+import csv
+import json
 import pandas as pd
 import scipy as sp
 import numpy as np
 import re
-import csv
-import json
 
 
 import psycopg2
@@ -377,23 +377,29 @@ for key in wl:
     nn = np.flatnonzero(countDtm[:, index])
     caseIds=[]
     for n in nn:
-        caseIds.append({'caseId':countToCaseIdMap[n],'case':cases[n]})
+        caseIds.append({'caseId':countToCaseIdMap[n],'case':cases[n].replace(vocabWord,"<class='highlight'>"+vocabWord+"</class>")})
         #caseIds.append(countToCaseIdMap[n])
 
     wlWithCases[vocabWord]={'freq':str(key[1]),'cases':caseIds}
 
-
-vocab.index("bearing")
 import json
-
 print(json.dumps(wlWithCases))
-#we need to find the documents for each of the word
 
 
 #dump the json to a file
-outF = open("kmeansOutput", "w")
+outF = open("kmeansOutput.json", "w")
 outF.write(json.dumps(wlWithCases))
 outF.close()
+
+
+
+
+
+
+
+vocab.index("bearing")
+#we need to find the documents for each of the word
+
 
 
 
