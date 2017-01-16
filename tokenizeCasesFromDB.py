@@ -111,8 +111,8 @@ def getNormalizedCases(conn,equipmentType):
     # for key,value in cases.items():
     #     print(cases[key])
     arrUnigramFiltered = {}
-    startCaseNumber = 0
-    endCaseNumber = 100
+    #startCaseNumber = 0
+    #endCaseNumber = 100
     for key in cases:
         # print("before {}",case)
         case = cases[key]
@@ -259,12 +259,7 @@ def getNormalizedCases(conn,equipmentType):
 
     return (cases,arrUnigramFiltered,arrQuadgramFiltered,arrTrigramFiltered,arrBigramFiltered)
 
-print(equipmentType)
-cases,finalizedUnigrams,finalizedQuadgrams,finalizedTrigrams,finalizedBigrams=getNormalizedCases(conn,equipmentType)
-
-print(len(cases),len(finalizedUnigrams),len(finalizedQuadgrams),len(finalizedTrigrams),len(finalizedBigrams))
-
-def printcases(caseId):
+def printcases(caseId,finalizedUnigrams,finalizedQuadgrams,finalizedTrigrams,finalizedBigrams):
     print(cases[caseId])
     print(finalizedUnigrams[caseId])
     print(finalizedQuadgrams[caseId])
@@ -272,13 +267,18 @@ def printcases(caseId):
     print(finalizedBigrams[caseId])
 
 
-caseId=24
 
-printcases(caseId)
+''''Main code that will insert the tokenized cases to db'''
+print(equipmentType)
+cases,finalizedUnigrams,finalizedQuadgrams,finalizedTrigrams,finalizedBigrams=getNormalizedCases(conn,equipmentType)
 
+print(len(cases),len(finalizedUnigrams),len(finalizedQuadgrams),len(finalizedTrigrams),len(finalizedBigrams))
+
+# caseId=24
+#
+# printcases(caseId)
 
 cur = conn.cursor()
-
 for key in cases:
     #print(cases[key])
     query = "INSERT INTO cases.smartsignal_normalized_case(id, \"originalCase\", \"normalizedCase\",\"equipmentType\") VALUES (%s, %s, %s,%s);"
