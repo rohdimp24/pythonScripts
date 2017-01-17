@@ -296,7 +296,7 @@ def getwordList(km, N, k,casesDistributionPerCluster, countDtm, vocab):
         print(clusterNum)
         n = getNumberOfWordsForCluster(km, clusterNum, numberOfCases)
         # get wordmap for a cluster
-        wordList = getWordMapForCluster(casesPerCluster[clusterNum].split(','), countDtm, vocab)
+        wordList = getWordMapForCluster(casesDistributionPerCluster[clusterNum].split(','), countDtm, vocab)
         finalList.append(wordList[:n])
 
     print(finalList)
@@ -362,7 +362,7 @@ Variables:
     -countDtm: the document term matrix
     -vocab: the list of the keywords
 '''
-def getWordCloudListWithCasesJson(km, N, k, casesDistributionPerCluster, countDtm, vocab):
+def getWordCloudListWithCasesJson(km, N, k, casesDistributionPerCluster, countDtm, vocab,countToCaseIdMap,cases):
     wlWithCases = {}
     wl = getwordList(km, N,k, casesDistributionPerCluster, countDtm, vocab)
 
@@ -412,7 +412,7 @@ Variables:
     -countDtm: document-term matrix containing all teh keywords in the columns. the cell determins the tf score
 
 '''
-def getFreqDistribution(countDtm):
+def getFreqDistribution(countDtm,vocab):
     freqsum = np.sum(countDtm, axis=0)
 
     # for each of the vocabulary word create a dictionary containing the count
@@ -455,7 +455,7 @@ print(wl)
 ''''
 Now find out how the various cases in which the cases have appeared.
 '''
-wlWithCases=getWordCloudListWithCasesJson(km,len(cases),3,casesDistributionPerCluster,countDtm,vocab)
+wlWithCases=getWordCloudListWithCasesJson(km,len(cases),3,casesDistributionPerCluster,countDtm,vocab,countToCaseIdMap,cases)
 # dump the json to a file
 outF = open("kmeansOutput.json", "w")
 outF.write(json.dumps(wlWithCases))
