@@ -2,6 +2,7 @@ import numpy as np
 from sklearn.cluster import KMeans
 import psycopg2
 import json
+import pickle
 
 #for some reason the user has to be postgres and not root
 '''Db connection'''
@@ -29,6 +30,8 @@ def getIntiialize(conn,equipmentType):
         # print (row[0],row[1])
         # cases[row[0]]={"original":row[1]}
         cases[row[0]] = row[1]
+
+    #cases= pickle.load( open( "/Users/305015992/pythonProjects/wordcloud/casesDict.p", "rb" ) )
     stopwordsFile = open('/Users/305015992/pythonProjects/wordcloud/stopwordsss.txt', 'r')
     stopwords = stopwordsFile.read()
     stopwordList = stopwords.split(",")
@@ -428,7 +431,16 @@ def getFreqDistribution(countDtm,vocab):
 
 equipmentType="STEAM_TURBINE"
 
+# casesDict, stopwordList = getIntiialize(conn,equipmentType)
+# print(casesDict)
+# import pickle
+# pickle.dump( casesDict, open( "casesDict.p", "wb" ) )
+
+
 cases,countToCaseIdMap,tfSparseMatrix,count_vect,countDtm=getVectorized(conn,equipmentType)
+
+
+
 km=performKmeans(tfSparseMatrix)
 
 '''Find out how many documents are  in each cluster'''
@@ -456,6 +468,7 @@ print(wl)
 Now find out how the various cases in which the cases have appeared.
 '''
 wlWithCases=getWordCloudListWithCasesJson(km,len(cases),3,casesDistributionPerCluster,countDtm,vocab,countToCaseIdMap,cases)
+print(wlWithCases)
 # dump the json to a file
 outF = open("kmeansOutput.json", "w")
 outF.write(json.dumps(wlWithCases))
