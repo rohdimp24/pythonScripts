@@ -1,28 +1,20 @@
-import csv
-import json
-import pandas as pd
-import scipy as sp
 import numpy as np
-import re
-
-
+from sklearn.cluster import KMeans
 import psycopg2
+import json
+
 #for some reason the user has to be postgres and not root
-import csv
-
+'''Db connection'''
 conn = psycopg2.connect(database='jim', user='postgres', password='root', host='127.0.0.1', port='5432')
-
-# cur = conn.cursor()
-#
-# cur.execute("Select id,\"normalizedCase\" from cases.smartsignal_normalized_case where \"equipmentType\"=%s",(equipmentType,))
-#
-# rows = cur.fetchall()
 
 
 '''
-conn: the connection object
-equipmentType: The category of cases
-Reading teh normalized cases based on teh equipment type
+Function Name:getIntiialize
+Purpose: Reading teh normalized cases based on teh equipment type
+Variables:
+    -conn: the connection object
+    -equipmentType: The category of cases
+
 '''
 def getIntiialize(conn,equipmentType):
     cur = conn.cursor()
@@ -69,7 +61,6 @@ Variables:
     -keyword: for which the documents needs to be found
     -countDtm: document -term matrix
 '''
-
 def getDocumentsContainingKeywords(countDtm,vocab,keyword):
     #GET THE COLUMN NUM OF THE KEYWORD
     keywordIndex=getKeywordIndexInVocabulary(vocab,keyword)
@@ -100,7 +91,8 @@ def getKeywordsOfDocument(dtm,vocab,docNo):
 
 '''
 Function Name:getFreqOfKeyword
-Purpose: How many times a particular word has appeared in the corpus(not document frequncy as we will consider the absolute number and not the binary)
+Purpose: How many times a particular word has appeared in the corpus(not document frequncy as we will consider the
+absolute number and not the binary)
 Variables:
     -freqDict: the dictionary containing the frequency of all the keywords. This is created at the time of creating the countDTM
     -keyword:  the word for which the frequncy needs to be found
@@ -122,7 +114,6 @@ Variables:
     -clusterNum:  the cluster id for which we want to determine the number of words
     -N: Number of documents which were considered for clustering
 '''
-
 def getNumberOfWordsForCluster(km, clusterNum, N):
 	ret = np.unique(km.labels_, return_counts=True)
 	clusterSize = ret[1][clusterNum]
@@ -165,15 +156,12 @@ This caseId is the primary key to retrieve the original case from the db at any 
 2.tfSparseMatrix: this is the tf-idf document-term matrix that will be used for clustering
 3.countDtm: This is the document-term matrix without tf-idf. we will use it for findong frequecy of keywords, vocab etc
 4.vocab: list of keywords obtained from countDtm
-5.freqDict: dictionary of keywords and their corpus frequecy
-6.kmeans clustering: kmeans clustering algorithm
 
 
 Variables:
     -conn: The postgres connection  object
     -equipmentType: WIND_TURBINE, STEAM_TURBINE etc
 '''
-
 def getVectorized(conn,equipmentType):
 
     casesDict, stopwordList = getIntiialize(conn,equipmentType)
@@ -211,27 +199,45 @@ def getVectorized(conn,equipmentType):
 
 
     ##########
-    freqsum = np.sum(countDtm, axis=0)
+    # freqsum = np.sum(countDtm, axis=0)
+    #
+    # # for each of the vocabulary word create a dictionary containing the count
+    # freqDict = []
+    # for idx, v in enumerate(vocab):
+    #     freqDict.append({'word': v, 'count': freqsum[idx]})
 
-    # for each of the vocabulary word create a dictionary containing the count
-    freqDict = []
-    for idx, v in enumerate(vocab):
-        freqDict.append({'word': v, 'count': freqsum[idx]})
+    # from sklearn.cluster import KMeans
+    # # the max_iter is how many iterations before the convergence is assumed
+    # # n_init is the number of times the algo is run
+    # K_Cluster = 3
+    # km = KMeans(n_clusters=K_Cluster, init='k-means++', max_iter=1000, n_init=10, verbose=False)
+    # # you need to call the km.fit_predict so that the kmeans cane be run and then each of the points can be assigned a cluster index
+    # km.fit_predict(tfSparseMatrix)
+	# # return (format(tfSparseMatrix.shape))
+	#return("skjdhkjsd")
 
-    from sklearn.cluster import KMeans
+
+    return(lines,countToCaseIdMap,tfSparseMatrix,count_vect,countDtm)
+
+
+'''
+Function Name:performKmeans
+Purpose: performs kmeans clustering using the tf-idf matrix
+
+
+Variables:
+    -tfSparseMatrix: tf-idf matrix
+
+'''
+def performKmeans(tfSparseMatrix):
+
     # the max_iter is how many iterations before the convergence is assumed
     # n_init is the number of times the algo is run
     K_Cluster = 3
     km = KMeans(n_clusters=K_Cluster, init='k-means++', max_iter=1000, n_init=10, verbose=False)
     # you need to call the km.fit_predict so that the kmeans cane be run and then each of the points can be assigned a cluster index
     km.fit_predict(tfSparseMatrix)
-
-	# return (format(tfSparseMatrix.shape))
-	#return("skjdhkjsd")
-
-
-    return(lines,countToCaseIdMap,km,count_vect,countDtm)
-
+    return(km)
 
 '''
 Function Name:getWordMapForCluster
@@ -246,7 +252,6 @@ Variables:
     -countDtm: This is the Document-term matrix whose cells will tell the frequency of the word in the document
     -vocab: a list of keywords
 '''
-
 def getWordMapForCluster(documents, countDtm, vocab):
     wordMap = {}
     #for each document find out which all keywords appear
@@ -283,8 +288,7 @@ Variables:
     -countDtm: the document term matrix
     -vocab: the list of the keywords
 '''
-
-def getwordList(km, N, k,casesPerCluster, countDtm, vocab):
+def getwordList(km, N, k,casesDistributionPerCluster, countDtm, vocab):
     finalList = []
     numberOfClusters = k
     numberOfCases = N
@@ -322,11 +326,110 @@ def getwordList(km, N, k,casesPerCluster, countDtm, vocab):
     return (sortedWordMap)
 
 
+'''
+Function Name:getWordCloudListJson
+Purpose: returns a JSON of wordlist that can be used to generate a wordcloud
+
+Variables:
+    -km: kmeans clustering object
+    -N: The number of documents in teh corpus
+    -k: The number of clusters
+    -casesDistributionPerCluster: distribution of cases per cluster
+    -countDtm: the document term matrix
+    -vocab: the list of the keywords
+'''
+def getWordCloudListJson(km,N,k,casesDistributionPerCluster,countDtm,vocab):
+    wl = getwordList(km,N, k, casesDistributionPerCluster, countDtm, vocab)
+    wlJson = []
+    for key in wl:
+        vocabWord = key[0]
+        vocabFreq = key[1]
+        wlJson.append({"keyword":vocabWord,"frequency":str(vocabFreq)})
+
+    return(json.dumps(wlJson))
+
+
+'''
+Function Name:getWordCloudListWithCasesJson
+Purpose: returns a JSON of wordlist along with which all cases are associated with that word. It will also highlight
+ the section of the case where the word has appeared
+
+Variables:
+    -km: kmeans clustering object
+    -N: The number of documents in teh corpus
+    -k: The number of clusters
+    -casesDistributionPerCluster: distribution of cases per cluster
+    -countDtm: the document term matrix
+    -vocab: the list of the keywords
+'''
+def getWordCloudListWithCasesJson(km, N, k, casesDistributionPerCluster, countDtm, vocab):
+    wlWithCases = {}
+    wl = getwordList(km, N,k, casesDistributionPerCluster, countDtm, vocab)
+
+    for key in wl:
+        vocabWord = key[0]
+        index = vocab.index(vocabWord)
+        # get all the rows for which the column at this index is nonzero
+        nn = np.flatnonzero(countDtm[:, index])
+        caseIds = []
+        for n in nn:
+            caseIds.append({'caseId': countToCaseIdMap[n],
+                            'case': cases[n].replace(vocabWord, "<class='highlight'>" + vocabWord + "</class>")})
+            # caseIds.append(countToCaseIdMap[n])
+
+        wlWithCases[vocabWord] = {'freq': str(key[1]), 'cases': caseIds}
+
+    return (json.dumps(wlWithCases))
+
+
+
+'''
+Function Name:getCasesDistributionPerCLuster
+Purpose: This function will find out the distribution of the cases in the cluster. Basically which cases belon to which cluster
+
+Variables:
+    -km: kmeans clustering object
+
+'''
+#which all cases belong to which cluster
+def getCasesDistributionPerCluster(km):
+    casesPerCluster = {}
+    for i, cluster in enumerate(km.labels_):
+        if cluster not in casesPerCluster.keys():
+            casesPerCluster[cluster] = str(i)
+        else:
+            casesPerCluster[cluster] += "," + str(i)
+    return(casesPerCluster)
+
+
+
+'''
+Function Name:getFreqDistribution
+Purpose: How many times a particular word has appeared in the corpus(not document frequncy as we will consider the
+absolute number and not the binary. A dictionary or word and its overall frequency is created
+
+Variables:
+    -countDtm: document-term matrix containing all teh keywords in the columns. the cell determins the tf score
+
+'''
+def getFreqDistribution(countDtm):
+    freqsum = np.sum(countDtm, axis=0)
+
+    # for each of the vocabulary word create a dictionary containing the count
+    freqDict = []
+    for idx, v in enumerate(vocab):
+        freqDict.append({'word': v, 'count': freqsum[idx]})
+    return(freqDict)
+
+
+
+
 '''The main code'''
 
 equipmentType="STEAM_TURBINE"
 
-cases,countToCaseIdMap,km,count_vect,countDtm=getVectorized(conn,equipmentType)
+cases,countToCaseIdMap,tfSparseMatrix,count_vect,countDtm=getVectorized(conn,equipmentType)
+km=performKmeans(tfSparseMatrix)
 
 '''Find out how many documents are  in each cluster'''
 clusterDistribution = np.unique(km.labels_, return_counts=True)
@@ -338,55 +441,22 @@ print(clusterDistribution)
 vocab=count_vect.get_feature_names()
 print(vocab)
 
-# text={}
-# for i,cluster in enumerate(tt):
-#     oneDocument = lines[i]
-#     if cluster not in text.keys():
-#         text[cluster] = oneDocument
-#     else:
-#         text[cluster] += oneDocument
-
 ''' How the documents are distrbiuted in each cluster..which all cases lie in cluster 1 ..3'''
-casesPerCluster={}
-for i,cluster in enumerate(km.labels_):
-    if cluster not in casesPerCluster.keys():
-        casesPerCluster[cluster] = str(i)
-    else:
-        casesPerCluster[cluster] += "," + str(i)
 
+casesDistributionPerCluster=getCasesDistributionPerCluster(km)
+print(casesDistributionPerCluster[1])
 
-print(casesPerCluster[1])
-
-'''Get the word list'''
-# clusterDistribution = np.unique(km.labels_, return_counts=True)
-
-wl=getwordList(km,len(cases),3,casesPerCluster,countDtm,vocab)
-
-print(len(wl))
-
+'''
+Get the word list in JSON
+'''
+wl=getWordCloudListJson(km,len(cases),3,casesDistributionPerCluster,countDtm,vocab)
+print(wl)
 
 ''''
 Now find out how the various cases in which the cases have appeared.
-
 '''
-wlWithCases={}
-for key in wl:
-    vocabWord=key[0]
-    index=vocab.index(vocabWord)
-    #get all the rows for which the column at this index is nonzero
-    nn = np.flatnonzero(countDtm[:, index])
-    caseIds=[]
-    for n in nn:
-        caseIds.append({'caseId':countToCaseIdMap[n],'case':cases[n].replace(vocabWord,"<class='highlight'>"+vocabWord+"</class>")})
-        #caseIds.append(countToCaseIdMap[n])
-
-    wlWithCases[vocabWord]={'freq':str(key[1]),'cases':caseIds}
-
-import json
-print(json.dumps(wlWithCases))
-
-
-#dump the json to a file
+wlWithCases=getWordCloudListWithCasesJson(km,len(cases),3,casesDistributionPerCluster,countDtm,vocab)
+# dump the json to a file
 outF = open("kmeansOutput.json", "w")
 outF.write(json.dumps(wlWithCases))
 outF.close()
@@ -394,16 +464,12 @@ outF.close()
 
 
 
-
-
-
+''''TESTING'''
 vocab.index("bearing")
 #we need to find the documents for each of the word
 
 
 
-
-''''TESTING'''
 getDocumentsContainingKeywords(countDtm,vocab,"bearing")
 
 str1=cases[800]
