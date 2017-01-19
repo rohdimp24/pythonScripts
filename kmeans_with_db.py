@@ -3,6 +3,7 @@ from sklearn.cluster import KMeans
 import psycopg2
 import json
 import pickle
+import pandas as pd
 
 #for some reason the user has to be postgres and not root
 '''Db connection'''
@@ -200,6 +201,9 @@ def getVectorized(conn,equipmentType):
     # need to convert it to numpy array so that we can easily perform the operations on it
     vocab = np.array(vocab)
 
+    #we can use the pandas here to visualize the countDTM MORE properly
+    df=pd.DataFrame(countDtm,columns=vocab)
+
 
     ##########
     # freqsum = np.sum(countDtm, axis=0)
@@ -220,7 +224,7 @@ def getVectorized(conn,equipmentType):
 	#return("skjdhkjsd")
 
 
-    return(lines,countToCaseIdMap,tfSparseMatrix,count_vect,countDtm)
+    return(lines,countToCaseIdMap,tfSparseMatrix,count_vect,countDtm,df)
 
 
 '''
@@ -437,8 +441,9 @@ equipmentType="STEAM_TURBINE"
 # pickle.dump( casesDict, open( "casesDict.p", "wb" ) )
 
 
-cases,countToCaseIdMap,tfSparseMatrix,count_vect,countDtm=getVectorized(conn,equipmentType)
+cases,countToCaseIdMap,tfSparseMatrix,count_vect,countDtm,df=getVectorized(conn,equipmentType)
 
+print(df)
 
 
 km=performKmeans(tfSparseMatrix)
