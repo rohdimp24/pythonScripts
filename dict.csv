@@ -1,1647 +1,2059 @@
-track,tracking
-flame detector,flame detector
-ring,ring
-displaying erratic,displaying erratic
-air inlet,air inlet
-position trending,position trending
-superheater,superheater
-lo cooler,lo cooler
-coolant,coolant
-drum boiler,drum boiler
-temperature observed,temperature observed
-magnitude,magnitude
-predictions,predicted
-burner spread,burner spread
-temp tracked,temperature tracking
-inlet outlet,inlet outlet
-issue,issue
-temp tracking predicted,temperature tracking predicted
-read estimate,reading estimate
-displayed,displaying
-pressure values,pressure values
-hot air,hot air
-oil drain temperature,oil drain temperature
-mech adaptation,mechanical adaptation
-flow erratic,flow erratic
-diff press,difference pressure
-reads,reading
-lower historical,lower historical
-estimate spike estimate,estimate spiking estimate
-gas pressure,gas pressure
-outlet flow trending,outlet flow trending
-discharge flow,discharge flow
-prefilter fuel,prefilter fuel
-bearing vibration,bearing vibrations
-trending model,trending model
-condensate,condenser
-ctrl,control
-temp reading,temperature reading
-tower drive,tower drive
-gear bearing temp,gear bearing temperature
-stator phase,stator phase
-fp,fp
-temp tag,temperature tag
-boiler water,boiler water
-flow flatlined,flow flatlined
-turb brg,turbine bearing
-econ,econ
-box,box
-de brg,de bearing
-temperature remained,temperature remained
-brg temp,bearing temperature
-temp bearing drain,temperature bearing drain
-generator bearing metal,generator bearing metal
-dissolved,dissolved
-spreads,spread
-amplitude,amplitude
-temperature decreased,temperature decreased
-gt,gt
-gas,gas
-concentration,concentration
-pump axial,pump axial
-lube oil temperature,lube oil temperature
-spread exhaust,spread exhaust
-air temp,air temperature
-driver load,driver load
-bearing temperature de,bearing temperature de
-vert,vertical
-engine,engine
-position thrust,position thrust
-cndc sample,cndc sample
-performance fuel combustion,performance fuel combustion
-low values,low values
-wheelspace differential,wheelspace differential
-values data,values data
-injection flow,injection flow
-rr notification,rr notification
-bearing trending,bearing trending
-shell,shell
-fw pmp axial probe,fw pump axial probe
-oil tank,oil tank
-adaptation fuel,adaptation fuel
-vibrations model,vibration model
-turbine generator,turbine generator
-temp avg,temperature average
-stator coil,stator coil
-pressure stepped,pressure stepped
-trending model estimate,trending model estimate
-press range,pressure range
-content,content
-stator winding,stator wind
-motor ob bearing temp,motor ob bearing temperature
-nde bearing temp,nde bearing temperature
-turbine brg,turbine bearing
-combustion wheelspace mechanical,combustion wheelspace mechanical
-filters,filter
-brg vib seis,bearing vibration seismic
-lines,lined
-temp tracking accurately,temperature tracking accurately
-performance exhaust,performance exhaust
-hydrogen pressure,hydrogen pressure
-wheelspace st,wheelspace st
-data issue,data issue
-creating,creating
-fuel combustion,fuel combustion
-bearing temperature,bearing temperature
-inline,inline
-hot,hot
-average,average
-downwards,downward
-core,core
-persists issue persists,persists issue persists
-sample,sample
-temperature trending model,temperature trending model
-cavity,cavity
-intermittently,intermittently
-drive generator bearing temp,drive generator bearing temperature
-sensor issue,sensor issue
-unit run bearing,unit run bearing
-stg outer,stage outer
-displaying,displaying
-oil,oil
-run bearing,run bearing
-intercooler coolant pressure,intercooler coolant pressure
-tcaphoss,tcaphoss
-position reading,position reading
-brg vib prox,bearing vibration prox
-pressure tag,pressure tag
-model ip,model ip
-gen bearing temp,generator bearing temperature
-exciter,exciter
-increase model,increase model
-reading,reading
-inlet flow,inlet flow
-gt bearing,gt bearing
-motor,motor
-drive generator bearing temperature,drive generator bearing temperature
-pressure tracking,pressure tracking
-estimate spike,estimate spiking
-sh,sh
-motor stator,motor stator
-fan,fan
-bearing vibrations decreased,bearing vibration decreased
-bearing oil drain temperature,bearing oil drain temperature
-adaptation combustion,adaptation combustion
-model gas tag,model gas tag
-pressure dropped,pressure dropped
-temp increase,temperature increase
-srv,srv
-vertical,vertical
-exhaust steam,exhaust steam
-instrumentation,instrument
-radial bearing,radial bearing
-cyl,cylinder
-pressure steam tag,pressure steam tag
-oscillating,oscillating
-temperature increases,temperature increase
-sensor flatlined,sensor flatlined
-oil outlet,oil outlet
-estimate nde,estimate nde
-nde brg,nde bearing
-pump motor,pump motor
-pressure tracking model,pressure tracking model
-transmitters,transmitter
-curtailment,curtailed
-oil press,oil pressure
-tracking estimate,tracking estimate
-gearbox bearing,gearbox bearing
-jacket,jacket
-instrument,instrument
-decreasing,decreased
-reaching,reaching
-temperature values,temperature values
-exhaust temperature spread,exhaust temperature spread
-jumped,jumped
-trending,trending
-rd outer,rd outer
-temp range stripe,temperature range stripe
-stg,stage
-drum reading,drum reading
-drain temps,drain temperature
-flatlines,flatlined
-restarted,restart
-waterbox,waterbox
-biased,biased
-inlet,inlet
-tag model,tag model
-vibrations erratic,vibration erratic
-valve position,valve position
-scrubber,scrubber
-tag hrsg,tag hrsg
-stack,stack
-model turbine,model turbine
-stopped data,stopped data
-inlet gas,inlet gas
-crankcase pressure,crankcase pressure
-intercooler outlet temperature,intercooler outlet temperature
-device,device
-fuel pressure,fuel pressure
-compressor outlet,compressor outlet
-drum fw,drum fw
-spread,spread
-nde,nde
-vibrations trending model,vibration trending model
-rotor vibr exciter,rotor vibration exciter
-elevated vibrations,elevated vibration
-evaporator,evaporator
-reading model prediction,reading model predicted
-monitor,monitor
-decreased,decreased
-ip,ip
-low speed,low speed
-motor ob,motor ob
-lp drum,lp drum
-pump discharge,pump discharge
-circ,circ
-estimate tracking,estimate tracking
-bearing metal temps,bearing metal temperature
-axial probe,axial probe
-pressure low,pressure low
-separator,separator
-model predictions,model predicted
-turbine temperature,turbine temperature
-cleared closing,cleared closing
-steam silica,steam silica
-flatlined data,flatlined data
-probe reading,probe reading
-temperature flatlined,temperature flatlined
-cation,cation
-faulted data,faulted data
-exhaust spreads,exhaust spread
-gtdl,gtdl
-range values,range values
-steam tag,steam tag
-leak,leak
-wsao,wsao
-ib brg temp,ib bearing temperature
-temperature increasing,temperature increase
-trips,trip
-vibs,vibration
-gas differential pressure,gas differential pressure
-delta,delta
-driver thrust bearing,driver thrust bearing
-noise,noise
-persisted,persists
-smart signal,smart signal
-inlet press,inlet pressure
-cooling,cooling
-cond pump,conductivity pump
-db,db
-cold gas,cold gas
-st,st
-slot,slot
-transducer,transducer
-track model,tracking model
-peak,peak
-exceeding,exceeded
-ambient temps,ambient temperature
-cooler,cooler
-decreased values,decreased values
-burner fuel gas,burner fuel gas
-pulverizer,pulverizer
-dp increasing,dp increase
-lower ambient,lower ambient
-cylinders,cylinder
-flatline,flatlined
-positive,position
-brg decreased,bearing decreased
-prox brg,prox bearing
-ft,ft
-valves,valve
-spread decreased,spread decreased
-collector,collector
-unit restarted,unit restart
-control,control
-thermocouples,thermocouple
-pmp,pump
-differential,differential
-temp ti,temperature ti
-residuals,residuals
-temperature ambient,temperature ambient
-bearing temps,bearing temperature
-operations,operational
-vibrations elevated,vibration elevated
-brg vib,bearing vibration
-motor stator temperature,motor stator temperature
-generator de bearing temperature,generator de bearing temperature
-exhaust temp spread,exhaust temperature spread
-periods,periods
-nox,nox
-advisories,advisory
-demand,demand
-sh steam,sh steam
-trip,trip
-stepped low,stepped low
-erratic,erratic
-gas tag hrsg,gas tag hrsg
-temp start,temperature start
-reading nans,reading nans
-drains,drain
-inactive,inactive
-vibration tags,vibrations tag
-intercooler,intercooler
-duct pressure,duct pressure
-winding,wind
-decreased low,decreased low
-mech,mechanical
-teg,teg
-sensors,sensor
-hotwell,hotwell
-axial position trending,axial position trending
-dsh,dsh
-suction temp,suction temperature
-strainer dp,strainer dp
-condensate pump,condenser pump
-air flow,air flow
-position model,position model
-estimate increase,estimate increase
-tc,thermocouple
-thrust brg mtl,thrust bearing metal
-axial positions,axial position
-flow hrsg,flow hrsg
-counts,counts
-flow stepped,flow stepped
-swinging,swinging
-flatlined tags,flatlined tag
-bed,bed
-disch,discharge
-reheat,reheat
-persists condition persists,persists condition persists
-steadily increasing,steadily increase
-downward,downward
-wind speed,wind speed
-chiller,chiller
-increase,increase
-estimate,estimate
-de seal outlet,de seal outlet
-cooler water flow,cooler water flow
-pumps,pump
-delete,delete
-ws,wheelspace
-street,street
-spiking low,spiking low
-outlet temps,outlet temperature
-motor ib,motor ib
-vibration bearing,vibrations bearing
-fw pump,fw pump
-bfpt,bfpt
-bleed,bleed
-cooling air,cooling air
-overlay,overlay
-duplicate,duplicate
-process,process
-fan ib brg,fan ib bearing
-disc cavity,disc cavity
-water injection,water injection
-start bearing,start bearing
-nacelle,nacelle
-threshold,threshold
-phase winding,phase wind
-vibration increasing,vibrations increase
-smart,smart
-persists issue,persists issue
-monitoring,monitor
-compressor inlet pressure,compressor inlet pressure
-readings,reading
-bearing decreased,bearing decreased
-deviations,deviation
-removed,removed
-temp increases,temperature increase
-avg,average
-peaked,peak
-lower model estimate,lower model estimate
-inactive thrust bearing,inactive thrust bearing
-bfp suction,bfp suction
-gas dp,gas dp
-air compressor,air compressor
-vibrations start,vibration start
-inlet gas press,inlet gas pressure
-seal gas filter,seal gas filter
-estimate de,estimate de
-temp thrust,temperature thrust
-generator bearing temp,generator bearing temperature
-opposite,opposite
-generator drive,generator drive
-de seal dp,de seal dp
-settling,settling
-drifting,drifting
-spiking,spiking
-temperature sensor,temperature sensor
-drum boiler water,drum boiler water
-vigv,vigv
-bfp,bfp
-fluctuating,fluctuating
-detectors,detector
-brg temps,bearing temperature
-rising,rising
-gen temp,generator temperature
-hydrogen gas pressure,hydrogen gas pressure
-st brg vib,st bearing vibration
-trending de,trending de
-temp exhaust temp,temperature exhaust temperature
-gas outlet temp,gas outlet temperature
-blowdown silica ip,blowdown silica ip
-tracking model estimate,tracking model estimate
-electrical,electrical
-vib,vibration
-nde seal outlet flow,nde seal outlet flow
-gear bearing,gear bearing
-turbine power,turbine power
-trending model prediction,trending model predicted
-detector,detector
-model tag,model tag
-tunnel,tunnel
-thrust brg,thrust bearing
-bowl dp,bowl dp
-predicts,predicted
-wheel temp tracking,wheel temperature tracking
-delta temperature,delta temperature
-temps tracking model,temperature tracking model
-hotter,hotter
-low lower,low lower
-stack temp,stack temperature
-ho,ho
-drive,drive
-lube oil temp,lube oil temperature
-wind turbines,wind turbine
-gen slipring bearing vib,generator slipring bearing vibration
-trend model,trending model
-model electrical,model electrical
-wind turbine curtailed,wind turbine curtailed
-tag flatlined,tag flatlined
-reaches,reaching
-pos,position
-cooler temperature,cooler temperature
-cyclewatch,cyclewatch
-gross load,gross load
-wind speed curtailment,wind speed curtailed
-stopped,stopped
-gearbox oil,gearbox oil
-spiked,spiking
-brg mtl temp,bearing metal temperature
-temp reading erratically,temperature reading erratic
-receiving,receiving
-journal bearing temperature,journal bearing temperature
-position sensor,position sensor
-dropped low,dropped low
-air delta,air delta
-fan ib,fan ib
-phases,phase
-run exhaust,run exhaust
-observed temperature,observed temperature
-iprc actioned,iprc actioned
-model estimate spike,model estimate spiking
-vibr exciter,vibration exciter
-model,model
-flow,flow
-coupling,coupling
-reading model,reading model
-poor tracking,poor tracking
-horizontal,horizontal
-ip fw flow,ip fw flow
-cooler outlet,cooler outlet
-wheelspace adaptation,wheelspace adaptation
-intensity,intensity
-mechanical,mechanical
-hrsg outlet,hrsg outlet
-temperature lube,temperature lube
-turb thrust,turbine thrust
-steam pressure,steam pressure
-unstable,unstable
-temp model estimate,temperature model estimate
-remained steady,remained steady
-decreased lower,decreased lower
-ob,ob
-combustion performance,combustion performance
-drive generator,drive generator
-starts,start
-training,train
-temperature spiked,temperature spiking
-blade,blade
-towers,tower
-exhibited,exhibit
-holding,hold
-drum ip,drum ip
-ob bearing,ob bearing
-position decreased,position decreased
-fi,fi
-condenser backpressure,condenser backpressure
-sh dsh outlet temperature,sh dsh outlet temperature
-vibrations,vibration
-machine,machine
-temp track,temperature tracking
-reading stepped,reading stepped
-buffer gas,buffer gas
-gt load,gt load
-flatlined,flatlined
-duct burner,duct burner
-producing,producing
-dropped,dropped
-post,post
-temperature periods,temperature periods
-bearing vib,bearing vibration
-dsh outlet,dsh outlet
-boiler,boiler
-exhaust gas,exhaust gas
-gas temperature,gas temperature
-magnetic,magnetic
-motor stator temps,motor stator temperature
-condition persisted,condition persists
-motor winding temperature,motor wind temperature
-models,model
-reading tracking,reading tracking
-exceeded model estimate,exceeded model estimate
-vibrations tracking,vibration tracking
-inactive thrust,inactive thrust
-model mech,model mechanical
-hrsg drum sample,hrsg drum sample
-vibe,vibes
-condition,condition
-repair,repaired
-turbine outlet temp,turbine outlet temperature
-duct burner outlet,duct burner outlet
-start exhaust,start exhaust
-airflow,airflow
-temp brg,temperature bearing
-signal,signal
-ambient temp,ambient temperature
-sensor tracking,sensor tracking
-spikes,spiking
-drum decreased,drum decreased
-behaviour,behaviour
-perf adaptation,performance adaptation
-remained,remained
-temperature spread,temperature spread
-slowly,slowly
-ranges,range
-estimates,estimate
-truck,truck
-model mechanical tag,model mechanical tag
-gt exhaust,gt exhaust
-exhaust temp exhaust,exhaust temperature exhaust
-agb,agb
-bearing oil drain,bearing oil drain
-generator de,generator de
-turbine temperature wheelspace,turbine temperature wheelspace
-restart,restart
-oil filter dp,oil filter dp
-flame,flame
-reactive,reactive
-outlet,outlet
-gas temp,gas temperature
-estimate turbine,estimate turbine
-temperature tags,temperature tag
-notification,notification
-nde seal outlet,nde seal outlet
-elevated bearing,elevated bearing
-flame scanner,flame scanner
-generator temp,generator temperature
-inboard,inboard
-mtl,metal
-cond,conductivity
-rear gen bearing,rear generator bearing
-thrust bearing metal,thrust bearing metal
-tracking low,tracking low
-compressor bearing,compressor bearing
-flow reading,flow reading
-vibrations bearing vibrations,vibration bearing vibration
-cell,cell
-fuel gas temperature,fuel gas temperature
-de bearing temperature,de bearing temperature
-suction discharge,suction discharge
-trained faulted,train faulted
-bearing,bearing
-tracked predicted,tracking predicted
-load,load
-watch,watch
-vibrations bearing,vibration bearing
-prox,prox
-temp model predicted,temperature model predicted
-probe,probe
-temperature nde exceeded,temperature nde exceeded
-ib bearing,ib bearing
-nde vibrations,nde vibration
-perf tag,performance tag
-vacuum,vacuum
-dp trending,dp trending
-oxygen,oxygen
-chemistry,chemistry
-air pressure,air pressure
-hrsg stack,hrsg stack
-wheelspace temps,wheelspace temperature
-compressor outlet temp,compressor outlet temperature
-hrsg bfp,hrsg bfp
-ws fi,wheelspace fi
-flow dropped,flow dropped
-temp gradually,temperature gradually
-lube oil filter dp,lube oil filter dp
-turbine outlet,turbine outlet
-read,reading
-op,op
-estimate rear gen,estimate rear generator
-comb,comb
-turbines,turbine
-hrsg lp,hrsg lp
-temp low,temperature low
-cycle,cycle
-temp tracking model,temperature tracking model
-fuel,fuel
-hrsg ip,hrsg ip
-projected,projected
-pressure,pressure
-erratic spiking,erratic spiking
-air outlet,air outlet
-outer,outer
-inlet temp,inlet temperature
-vibration issues,vibrations issue
-smartsignal,smartsignal
-ranged,range
-pump de,pump de
-rear strut,rear strut
-motor ib brg,motor ib bearing
-performance,performance
-lo pressure,lo pressure
-thrust bearing,thrust bearing
-control valve,control valve
-journal bearing,journal bearing
-peaks,peak
-model pressure,model pressure
-cylinder exhaust temperature,cylinder exhaust temperature
-damper,damper
-values exhaust,values exhaust
-gear,gear
-vib seis,vibration seismic
-gradually decreasing,gradually decreased
-fuel flow,fuel flow
-deviated,deviation
-valve,valve
-decreased bearing,decreased bearing
-data model,data model
-low,low
-elevated,elevated
-cooling water,cooling water
-low model,low model
-winding temp,wind temperature
-vib prox brg,vibration prox bearing
-temp bearing,temperature bearing
-st bearing,st bearing
-temperature dropped,temperature dropped
-de seal outlet flow,de seal outlet flow
-temp,temperature
-spike estimate,spiking estimate
-nans,nans
-estimate temperature,estimate temperature
-filter dp,filter dp
-bearing metal,bearing metal
-generator speed,generator speed
-tags model,tag model
-temp decreased,temperature decreased
-wtr,water
-temp values,temperature values
-priority notification,priority notification
-fan ob,fan ob
-improved,improved
-motor ib bearing,motor ib bearing
-lo,lo
-de bearing,de bearing
-start turbine,start turbine
-pump thrust,pump thrust
-decreases,decreased
-range,range
-de seal,de seal
-gross,gross
-filter diff,filter difference
-ip hrsg drum sample,ip hrsg drum sample
-thrust position,thrust position
-model perf tag,model performance tag
-ramp,ramp
-model combustor,model combustor
-fit,fit
-exciter brg,exciter bearing
-vibrations increase,vibration increase
-vibrations spiked,vibration spiking
-temperature model estimate,temperature model estimate
-unit restart,unit restart
-bank,bank
-range train,range train
-cation conductivity,cation conductivity
-temperature issues,temperature issue
-tracking predicted,tracking predicted
-ti,ti
-fwh,fwh
-seal pressure,seal pressure
-current,current
-sensor,sensor
-brg vibrations,bearing vibration
-ib ob,ib ob
-lube oil,lube oil
-gas spread,gas spread
-pump bearing,pump bearing
-conditions,condition
-load decreased,load decreased
-lo temperature,lo temperature
-winding temperature,wind temperature
-lp steam flow,lp steam flow
-nde vibration,nde vibrations
-ib bearing temp,ib bearing temperature
-scavenge,scavenge
-bias,bias
-baseline,baseline
-turb temp,turbine temperature
-bearing temp tracking,bearing temperature tracking
-closing,closing
-generator stator,generator stator
-temps reading,temperature reading
-repaired,repaired
-mech model,mechanical model
-ip steam,ip steam
-power,power
-trucks,truck
-model issue,model issue
-gradual,gradually
-tracking accurately,tracking accurately
-motor temp,motor temperature
-apparent,apparent
-da,da
-tracking model,tracking model
-vibration stepped,vibrations stepped
-lower predicted,lower predicted
-sodium,sodium
-outlet flow,outlet flow
-wind turbine,wind turbine
-ob brg,ob bearing
-estimate thrust,estimate thrust
-elevated model,elevated model
-stripe,stripe
-turbine curtailed,turbine curtailed
-datafeed,datafeed
-dp decreased,dp decreased
-temp diff,temperature difference
-ip hrsg drum,ip hrsg drum
-addressed,addressed
-adaptation fuel adaptation,adaptation fuel adaptation
-drum pressure,drum pressure
-turbine exhaust pressure,turbine exhaust pressure
-bearing lube,bearing lube
-lp vib,lp vibration
-turbine bearing,turbine bearing
-gas inlet,gas inlet
-chip detectors,chip detector
-ib,ib
-turbine bearing vibrations,turbine bearing vibration
-ip blowdown,ip blowdown
-temp estimate,temperature estimate
-estimate ambient,estimate ambient
-delta press,delta pressure
-pressure gradually,pressure gradually
-temperature de,temperature de
-seal oil,seal oil
-risen,risen
-condenser,condenser
-temp tracks,temperature tracking
-sump,sump
-ob brg temp,ob bearing temperature
-phase current,phase current
-bearing tunnel,bearing tunnel
-condition persists,condition persists
-sensor reading,sensor reading
-fuel pressure fuel,fuel pressure fuel
-ob brg vib,ob bearing vibration
-gt vibration,gt vibrations
-temp reading lower,temperature reading lower
-de vibrations,de vibration
-coil,coil
-transmitter,transmitter
-lube oil filter,lube oil filter
-curtailed,curtailed
-vibration readings,vibrations reading
-axial position,axial position
-dropping low,dropped low
-air temperature,air temperature
-nde bearing temperature,nde bearing temperature
-temps decreased,temperature decreased
-pump ib,pump ib
-pressure elevated,pressure elevated
-silica,silica
-press range train,pressure range train
-drain temperature,drain temperature
-fluid,fluid
-bearing temperature model,bearing temperature model
-tank,tank
-temp model,temperature model
-bearing reads,bearing reading
-drum sample,drum sample
-gearbox oil temperature,gearbox oil temperature
-thrust bearing inactive,thrust bearing inactive
-mtl temps,metal temperature
-metal temperature,metal temperature
-stepped model,stepped model
-hottest,hottest
-wheelspace temp,wheelspace temperature
-turbine curtailed wind,turbine curtailed wind
-ip blowdown silica,ip blowdown silica
-circ water,circ water
-bearing temperature reading,bearing temperature reading
-outlet temp,outlet temperature
-temp motor,temperature motor
-strainer,strainer
-fd,fd
-trending values,trending values
-saturated,saturated
-analyzer,analyzer
-spread tracking,spread tracking
-power turbine,power turbine
-fcv,fcv
-thermocouple,thermocouple
-fuel gas temp,fuel gas temperature
-horiz,horizontal
-gearbox bearing temp,gearbox bearing temperature
-axial position sensor,axial position sensor
-burner fuel,burner fuel
-nde bearing,nde bearing
-reading lower model,reading lower model
-driver,driver
-increasing model,increase model
-curtailment cleared,curtailed cleared
-data trained,data train
-server,server
-temperature nde,temperature nde
-bearing vibrations,bearing vibration
-low estimate,low estimate
-iprc,iprc
-values low,values low
-preturbine,preturbine
-fuel gas flow,fuel gas flow
-rear gear bearing temp,rear gear bearing temperature
-metal,metal
-lpt,lpt
-suction,suction
-periodically,periods
-rh,rh
-bottom,bottom
-turbine speed,turbine speed
-temps track,temperature tracking
-faulted,faulted
-water jacket inlet pressure,water jacket inlet pressure
-agb chip detector,agb chip detector
-lvl,level
-tag hrsg inlet,tag hrsg inlet
-backpressure,backpressure
-current reading,current reading
-fluid coupling,fluid coupling
-pressure core,pressure core
-exhibit,exhibit
-hrsg inlet gas,hrsg inlet gas
-mill motor,mill motor
-spread increase,spread increase
-oil temp,oil temperature
-vars,vars
-reads bearing,reading bearing
-intake,intake
-cooler oil,cooler oil
-pressure model,pressure model
-temp spiking,temperature spiking
-instances,instances
-oil cooler outlet,oil cooler outlet
-tracking bearing,tracking bearing
-fan vibrations,fan vibration
-recirc,recirc
-reading low,reading low
-tags data,tag data
-turbine,turbine
-bearing tracking,bearing tracking
-rot gen,rotor generator
-comparing,comparing
-rot,rotor
-rear gen bearing temp,rear generator bearing temperature
-bearing drain temp,bearing drain temperature
-pmp axial probe,pump axial probe
-issue persists,issue persists
-suction temperature,suction temperature
-heater,heater
-thrust,thrust
-incident,incidents
-seal gas,seal gas
-bearings,bearing
-fluctuate,fluctuating
-par,par
-generator bearing temperature,generator bearing temperature
-conductivity,conductivity
-turbo,turbo
-spec conductivity,spec conductivity
-flow range,flow range
-bearing vibes,bearing vibes
-core fuel pressure,core fuel pressure
-deviating,deviation
-tripped,trip
-dropping,dropped
-rose,rose
-driving,drive
-piston,piston
-reading bearing,reading bearing
-rr,rr
-duct,duct
-compressor speed,compressor speed
-pcwu,pcwu
-inactive metal,inactive metal
-alarms,alarm
-gen rot,generator rotor
-exhaust tc,exhaust thermocouple
-coal,coal
-shot,shot
-drum spec,drum spec
-water injection flow,water injection flow
-temp stepped,temperature stepped
-inho,inho
-gen bearing,generator bearing
-silica ip,silica ip
-compressor performance,compressor performance
-injection,injection
-positions,position
-temp turbine,temperature turbine
-shaft vibration,shaft vibrations
-temperature increase,temperature increase
-combustion monitor spread,combustion monitor spread
-filter dp trending,filter dp trending
-drum spec cndc,drum spec cndc
-tp,tp
-proximity,proximity
-decaying,decaying
-unit start,unit start
-delta temp,delta temperature
-flue gas,flue gas
-spread traced,spread traced
-lagging,lagging
-accurately,accurately
-calibration,calibration
-priority,priority
-compressor discharge,compressor discharge
-temp tracking lower,temperature tracking lower
-exhaust thermocouple,exhaust thermocouple
-model perf,model performance
-steam cat,steam cat
-bearing temp decreased,bearing temperature decreased
-load increase,load increase
-decrease,decreased
-values model,values model
-failing,failing
-seal,seal
-drain,drain
-water temperature,water temperature
-tracked model,tracking model
-range train data,range train data
-hrsg temp,hrsg temperature
-lower,lower
-values,values
-bearing position,bearing position
-motor winding temp,motor wind temperature
-tc reading,thermocouple reading
-twice,twice
-metal temp,metal temperature
-range train pressure,range train pressure
-reading lower,reading lower
-coldest,coldest
-pedestal,pedestal
-trended,trending
-feed,feed
-pulsation,pulsation
-burner,burner
-dates,dates
-gearbox oil temp,gearbox oil temperature
-speed,speed
-seal outlet flow,seal outlet flow
-deviation,deviation
-data trained model,data train model
-pretty,pretty
-turb,turbine
-velocity,velocity
-air filter,air filter
-tags,tag
-tube,tube
-erratic values,erratic values
-performance model,performance model
-plant,plant
-vibrations reading,vibration reading
-temp flatlined,temperature flatlined
-pressure lower,pressure lower
-actioned,actioned
-shaft vibrations,shaft vibration
-cold,cold
-brg axial,bearing axial
-drum press,drum pressure
-fuel pressure core,fuel pressure core
-duct burner spread,duct burner spread
-preheater,preheater
-voltage,volts
-read erratically,reading erratic
-brg vibration,bearing vibrations
-thermal,thermal
-duct firing,duct firing
-wheel fi,wheel fi
-fans,fan
-erratic readings,erratic reading
-baseload,baseload
-bearing temp model,bearing temperature model
-vibr,vibration
-pump ob,pump ob
-steam flow,steam flow
-fi temp,fi temperature
-oil cooler,oil cooler
-exhaust tc reading,exhaust thermocouple reading
-silica ip blowdown,silica ip blowdown
-sensor repaired,sensor repaired
-vibration,vibrations
-thrust bearing temperature,thrust bearing temperature
-brgx,bearing
-temperature model,temperature model
-stepped,stepped
-positive residuals,position residuals
-booster,booster
-chart,charts
-outlet pressure,outlet pressure
-correlates,correlates
-performance tag,performance tag
-pressure fuel,pressure fuel
-firing,firing
-vibes,vibes
-fr,fr
-restart bearing,restart bearing
-journal,journal
-pressure core fuel,pressure core fuel
-exhaust spread,exhaust spread
-fw flow,fw flow
-purity,purity
-temperature differential,temperature differential
-flow model,flow model
-combustion wheelspace,combustion wheelspace
-speed curtailment cleared,speed curtailed cleared
-prox brg vib,prox bearing vibration
-trending upward,trending upward
-seal oil pressure,seal oil pressure
-model fuel,model fuel
-winding temps,wind temperature
-gen,generator
-inlet filter,inlet filter
-combustor,combustor
-unchanged,unchanged
-center,center
-alerts,alerting
-temperature low,temperature low
-fw,fw
-shifts,shifted
-drum cond,drum conductivity
-temp predicted,temperature predicted
-curtailed wind speed,curtailed wind speed
-temperature trending,temperature trending
-turbine thrust,turbine thrust
-spec cndc sample,spec cndc sample
-vibrations increasing,vibration increase
-steady,steady
-posting,post
-gt vibration sensor,gt vibrations sensor
-performance fuel,performance fuel
-driver thrust,driver thrust
-stepped estimate,stepped estimate
-casing vibrations,casing vibration
-filter diff press,filter difference pressure
-bearing lube oil,bearing lube oil
-exhaust,exhaust
-vibrations decreased,vibration decreased
-blowdown silica,blowdown silica
-flow decreased,flow decreased
-bearing increase,bearing increase
-gen brg,generator bearing
-model performance tag,model performance tag
-exceeded model,exceeded model
-temperature tracking model,temperature tracking model
-fluctuation,fluctuating
-filter,filter
-temp range train,temperature range train
-increases,increase
-trained,train
-press,pressure
-de nde,de nde
-reading flatlined,reading flatlined
-pump,pump
-slipring bearing,slipring bearing
-attemperator spray flow,attemperator spray flow
-cooling tower,cooling tower
-metal temp bearing,metal temperature bearing
-downhole,downhole
-alarm,alarm
-pump ob brg,pump ob bearing
-ob bearing temp,ob bearing temperature
-hot gas,hot gas
-fg,fg
 acceleration,acceleration
-bearing hotter,bearing hotter
-low model estimate,low model estimate
-thrust bearing temps,thrust bearing temperature
-lube oil cooler,lube oil cooler
-inner,inner
-oil temperature,oil temperature
-lcv,lcv
-probe sample,probe sample
-duct burner fuel,duct burner fuel
-drum tracking,drum tracking
-position shifted,position shifted
-stator,stator
-gas tag,gas tag
-mapped,mapped
-vib sensor,vibration sensor
-fd fan,fd fan
-suction pressure,suction pressure
-suction strainer dp,suction strainer dp
-slowly increasing,slowly increase
-investigation,investigation
-current conditions,current condition
-water jacket,water jacket
-wheel temp,wheel temperature
-prediction,predicted
-core fuel,core fuel
-drive generator bearing,drive generator bearing
-bearing temp trending,bearing temperature trending
-trending nde,trending nde
-temp erratic,temperature erratic
-motor ob bearing,motor ob bearing
-turbine bearing tunnel,turbine bearing tunnel
-wheelspace,wheelspace
-gas filter,gas filter
-barometric,barometric
-ip fw,ip fw
-rear gen,rear generator
-nde brg vib,nde bearing vibration
-slipring,slipring
-gt turb,gt turbine
-remained elevated,remained elevated
-inlet air,inlet air
-thrust bearing axial position,thrust bearing axial position
-strut pressure,strut pressure
-temps model,temperature model
-gt vibration transducer,gt vibrations transducer
-increase bearing,increase bearing
-closed,closing
-perf,performance
-historical data,historical data
-streets,street
-vib prox,vibration prox
-thrust bearing axial,thrust bearing axial
-inlet temperature,inlet temperature
-reading erratic,reading erratic
-unit,unit
-cylinder exhaust,cylinder exhaust
-reservoir,reservoir
-bearing vibrations trending,bearing vibration trending
-gearbox,gearbox
-tracking erratically,tracking erratic
-advisory,advisory
-inboard vibration,inboard vibrations
-shield,shield
-thresholds,threshold
-hrsg drum,hrsg drum
-air,air
-vibration spiked,vibrations spiking
-diff,difference
-mol,mol
-startups,startup
-gradually,gradually
-exhaust duct pressure,exhaust duct pressure
-bearing metal temperature,bearing metal temperature
-displacement,displacement
-ranging,range
-axial displacement,axial displacement
-model tracking,model tracking
-fpt,fpt
-bearing drain,bearing drain
-drum differential,drum differential
-controller,control
-exhaust temperature,exhaust temperature
-bearing axial,bearing axial
-pump ib brg,pump ib bearing
-blowdown,blowdown
-trained faulted data,train faulted data
-cat,cat
-fluctuations,fluctuating
-condition cleared,condition cleared
-vibr exciter brg,vibration exciter bearing
-data,data
-operational,operational
-stator temperature,stator temperature
-temp pump,temperature pump
-temp exhaust,temperature exhaust
-tags flatlined,tag flatlined
-mark,mark
-temperature bearing,temperature bearing
-bdm,bdm
-axial,axial
-hydrogen,hydrogen
-bearing inactive,bearing inactive
-seal outlet,seal outlet
-temps increase,temperature increase
-vib brg,vibration bearing
-wheelspace rd,wheelspace rd
-assets,asset
-motor current,motor current
-vibration brg,vibrations bearing
-gas press,gas pressure
-exhaust temp,exhaust temperature
-erratic reading,erratic reading
-asset,asset
-coal flow,coal flow
-amp,amp
-cooler outlet temperature,cooler outlet temperature
-correct,correct
-fuel gas pressure,fuel gas pressure
-drum water,drum water
-wo,wo
-cylinder,cylinder
-de bearing vibrations,de bearing vibration
-inactivated,inactivated
-hold,hold
-model prediction,model predicted
-colder,colder
-model estimate,model estimate
-correlate,correlates
-fuel gas press,fuel gas pressure
-spec,spec
-ammonia,ammonia
-vibrations steady,vibration steady
-generator,generator
-discharge temperature,discharge temperature
-motor nde,motor nde
-occurring,occurring
-correlation,correlates
-ib brg,ib bearing
-alternator,alternator
-temperature spiking,temperature spiking
-tags tracking,tag tracking
-bearing temperature nde,bearing temperature nde
-persists,persists
-temp range values,temperature range values
-reading estimate,reading estimate
-speeds,speed
-issue persists issue,issue persists issue
-igv,igv
-suction flow,suction flow
-temperature wheelspace,temperature wheelspace
-temperature sensors,temperature sensor
-nde exceeded,nde exceeded
-rd,rd
-fw pmp,fw pump
-air delta press,air delta pressure
-recycle,recycle
-inboard bearing,inboard bearing
-wheelspace outer,wheelspace outer
-starts bearing,start bearing
-lp steam,lp steam
-phase,phase
-outlet gas,outlet gas
-chip detector,chip detector
-st brg,st bearing
-lower load,lower load
-temp trending model,temperature trending model
-position,position
-startup,startup
-model low,model low
-trending estimate,trending estimate
-temp tracking,temperature tracking
-turbine wheelspace,turbine wheelspace
-tracks model,tracking model
-rotor vib brg,rotor vibration bearing
-tag motor,tag motor
-steam sodium,steam sodium
-modeled,model
-consistently,consistently
-tracking,tracking
-model compressor,model compressor
-pressure reading,pressure reading
-mtl temp,metal temperature
-generator bearing temperature nde,generator bearing temperature nde
-oil drain,oil drain
-model estimate rear,model estimate rear
-nan,nans
-hydraulic,hydraulic
-power turbine positions,power turbine position
-temperature model predictions,temperature model predicted
-hrsg inlet,hrsg inlet
-enclosure,enclosure
-pump ib brg temp,pump ib bearing temperature
-spec cond,spec conductivity
-therm,therm
-motor ob brg,motor ob bearing
-condition persists condition,condition persists condition
-nde exceeded model,nde exceeded model
-values model estimates,values model estimate
-tc tracking,thermocouple tracking
-tracks,tracking
-liquid,liquid
-range values model,range values model
-water,water
-speed shaft,speed shaft
-degrade,degrade
-pump ob bearing,pump ob bearing
-thrust bearing position,thrust bearing position
-acoustic,acoustic
-lube oil pressure,lube oil pressure
-currents,current
-brg fr,bearing fr
-unit run,unit run
-coolant pressure,coolant pressure
-attemperator,attemperator
-variable,variable
-spec cndc,spec cndc
-exhaust temps,exhaust temperature
-estimate drive,estimate drive
-disc,disc
-de,de
-intercooler coolant,intercooler coolant
-rotor speed,rotor speed
-tag reading,tag reading
-cycling,cycle
-range train temp,range train temperature
-predicted,predicted
-flat,flat
-stator phase winding,stator phase wind
-trending lower,trending lower
-angle,angle
-train temp,train temperature
-casing,casing
-burners,burner
-trained data model,train data model
-stepping,stepped
-fairly,fairly
-temp gen,temperature generator
-drive bearing,drive bearing
+accurately,accurately
+actioned,actioned
+actuals,actuals
 adaptation,adaptation
-rotor,rotor
-predicted brg,predicted bearing
-discharge,discharge
-low load,low load
-ip drum,ip drum
-inlet filter dp,inlet filter dp
-brg metal,bearing metal
-mtl temp ti,metal temperature ti
-adjacent,adjacent
-rot gen rot,rotor generator rotor
-dropped model,dropped model
-bearing oil,bearing oil
-fw pmp axial,fw pump axial
-desuperheater,desuperheater
-ambient temperature,ambient temperature
-delta pressure,delta pressure
-oil pressure,oil pressure
-upward,upward
-temperature ti,temperature ti
-model predicted,model predicted
-generator bearing metal temp,generator bearing metal temperature
-fuel temperature,fuel temperature
-water flow,water flow
-outboard bearing,outboard bearing
-stator coil vib,stator coil vibration
-flue,flue
-temp range,temperature range
-bearing reading,bearing reading
-model values,model values
-estimate bearing,estimate bearing
-brg oil,bearing oil
-temp temperature,temperature temperature
-dp,dp
-gear oil,gear oil
-inlet position,inlet position
-ip drum differential,ip drum differential
-ammonia flow,ammonia flow
-motor winding,motor wind
-fuel combustion wheelspace,fuel combustion wheelspace
-bearing tracking model,bearing tracking model
-trending low,trending low
-deviate model,deviation model
-erratically,erratic
-vent,vent
-temp spread,temperature spread
-predicted issue,predicted issue
-tracked issue,tracking issue
-exceeded,exceeded
-temp tracking erratically,temperature tracking erratic
-differential pressure,differential pressure
-tower,tower
-timeframe,timeframe
-ambient air,ambient air
-model performance,model performance
-lined,lined
-modeling,model
-unit load,unit load
-shifting,shifted
-temperature lube oil,temperature lube oil
-gas differential,gas differential
-prefilter fuel pressure,prefilter fuel pressure
-residual thresholds,residuals threshold
-historical values,historical values
-motor bearing,motor bearing
-drum sensor,drum sensor
-tracking issue,tracking issue
-tracking lower,tracking lower
-gas flow,gas flow
-discharge pressure,discharge pressure
-varying,varying
-hrsg,hrsg
-charts,charts
-bearing temp reading,bearing temperature reading
-historical,historical
-pressure decreased,pressure decreased
-generator bearing temperature de,generator bearing temperature de
-generator drive bearing,generator drive bearing
-poor,poor
-vlv,valve
-bst,bst
-temp increasing,temperature increase
-seis,seismic
-wind,wind
-stabilized,stabilized
-start,start
-seal flow,seal flow
-gas outlet,gas outlet
-gt nox,gt nox
-lower model,lower model
-vibration sensor,vibrations sensor
-delta press range,delta pressure range
-brg oil drain,bearing oil drain
-mass flow,mass flow
-values condition,values condition
-hrsg drum spec,hrsg drum spec
-issue tracked,issue tracking
-temps,temperature
-mass,mass
-predicted tracking,predicted tracking
-investigated,investigation
-suction strainer,suction strainer
-rotor vibration,rotor vibrations
-celsius,celsius
-discharge temp,discharge temperature
-fuel gas,fuel gas
-model combustor performance,model combustor performance
-rotor vibr,rotor vibration
-brg position,bearing position
-model estimates,model estimate
-probes,probe
-journal bearings,journal bearing
-drain temp,drain temperature
-stator temps,stator temperature
-deviate,deviation
-temperature tracking,temperature tracking
-pressure increase,pressure increase
-curtailed wind,curtailed wind
-temp nans,temperature nans
-bearing elevated,bearing elevated
-persists condition,persists condition
-terminal,terminal
-compressor,compressor
-compressor outlet temp range,compressor outlet temperature range
-gas delta,gas delta
-pump nde,pump nde
-steam temp,steam temperature
-gts,gt
-rear strut pressure,rear strut pressure
-drum,drum
-gas press range,gas pressure range
-packing,packing
-cleared,cleared
-pressure decrease,pressure decreased
-exhaust pressure,exhaust pressure
-pressure trending,pressure trending
-connection,connection
-bearing metal temp,bearing metal temperature
-temp wheelspace,temperature wheelspace
-persist,persists
-drum conductivity,drum conductivity
-temperature elevated,temperature elevated
-train pressure,train pressure
-steam temperature,steam temperature
-outboard,outboard
-temp dropped,temperature dropped
-strut,strut
-start wheelspace,start wheelspace
-observed,observed
-train,train
-thrust bearing temp,thrust bearing temperature
-model gas,model gas
-generator bearing,generator bearing
-pressure steam,pressure steam
-model wheelspace,model wheelspace
-temperature reading,temperature reading
-tracked erratically,tracking erratic
-brg metal temp,bearing metal temperature
-motor stator temp,motor stator temperature
-steadily,steadily
-flows,flow
-issues,issue
-low alarm,low alarm
-run exhaust tc,run exhaust thermocouple
-vibrations trending,vibration trending
-condenser pressure,condenser pressure
-loss,loss
-exhaust steam temperature,exhaust steam temperature
-temperature,temperature
-crankcase,crankcase
-hrsgs,hrsg
-gradually increasing,gradually increase
-prefilter,prefilter
-tag,tag
-model pressure steam,model pressure steam
-residual,residuals
-ip hrsg,ip hrsg
-turbine thrust bearing,turbine thrust bearing
-flatlining,flatlined
-compressor inlet,compressor inlet
-temps tracking,temperature tracking
-cat cond,cat conductivity
-bearing vibration sensor,bearing vibrations sensor
-bellmouth,bellmouth
-reading erratically,reading erratic
-model mechanical,model mechanical
-lube,lube
-outlet press,outlet pressure
-mechanical model,mechanical model
-traced,traced
-cooler water,cooler water
-intermittent,intermittently
-flow trending,flow trending
-trend,trending
-voltages,voltage
-bowl,bowl
-chip,chip
-alert,alerting
-pulv,pulverizer
-bearing axial position,bearing axial position
-buffer,buffer
-reading unit,reading unit
-btj,btj
-temp trending,temperature trending
-brg,bearing
-cndc,cndc
-ib brg vib,ib bearing vibration
-pressure flatlined,pressure flatlined
-pres,pressure
-vibration reading,vibrations reading
-oil drain temp,oil drain temperature
-wheelspace mechanical,wheelspace mechanical
-incidents,incidents
-bearing vibrations bearing,bearing vibration bearing
-pattern,pattern
-speed curtailment,speed curtailed
-bearing temperature trending,bearing temperature trending
-exhaust temp range,exhaust temperature range
-spurious,spurious
-combustor performance,combustor performance
-htr,htr
-tuning,tuning
-rear,rear
-combustion,combustion
-outlet temperature,outlet temperature
-base,base
-perf model,performance model
-attemperator spray,attemperator spray
-model bearing,model bearing
-oil filter,oil filter
-siemens,siemens
-burner outlet,burner outlet
-brg mtl,bearing metal
-pressures,pressure
-stator temp,stator temperature
-decreased model,decreased model
-remained model,remained model
-steam,steam
-reads bearing reads,reading bearing reading
-servo current,servo current
-lo temp bearing,lo temperature bearing
-mtl temp range,metal temperature range
 adapted,adaptation
-tracking lower predicted,tracking lower predicted
-servo,servo
-alerting,alerting
-peaking,peak
-thermal mechanical tag,thermal mechanical tag
-thrust brg temp,thrust bearing temperature
-fuel adaptation,fuel adaptation
-metal temps,metal temperature
-fan motor,fan motor
-temperature tag,temperature tag
-gland,gland
-mtr,motor
-antisurge,antisurge
-bearing temp,bearing temperature
-load run,load run
-switched,switched
-wc,wc
-outlet temp range,outlet temperature range
-charge,charge
-trained data,train data
-spray flow,spray flow
-recovered,recovered
-downtime,downtime
-metal temp reading,metal temperature reading
-steam turbine,steam turbine
-shaft,shaft
-wheelspace temperature,wheelspace temperature
-piston leak,piston leak
-interstage,interstage
-flat lined,flat lined
-alerted,alerting
-estimate rear,estimate rear
-inner seal,inner seal
-shifted,shifted
-mill,mill
-lower estimate,lower estimate
-range stripe,range stripe
-inlet pressure,inlet pressure
-lo temp,lo temperature
-increasing,increase
-pitch,pitch
-nde seal,nde seal
-turbine exhaust,turbine exhaust
-engine speed,engine speed
-radial,radial
-tracked,tracking
-comp,comp
-trained model,train model
-outer temp,outer temperature
-heat,heat
-axial position shifted,axial position shifted
+additional,additional
+addressed,addressed
+advisory,advisories
+ah,ah
+ai,ai
+air,air
+alarm,alarm
+alarms,alarm
+alert,alert
+alerting,alert
+alerts,alert
+alias,alias
 ambient,ambient
-run,run
-spike,spiking
-wheel,wheel
-temp lower,temperature lower
-spray,spray
-estimated,estimate
-lp,lp
-reading values,reading values
-dp reading,dp reading
-scanner,scanner
-train data,train data
-ip drum conductivity,ip drum conductivity
-feedwater,feedwater
-coincides,coincides
-mechanical tag,mechanical tag
-pmp axial,pump axial
+ammonia,ammonia
+analyzer,analyzer
+antisurge,antisurge
+ao,ao
+aph,aph
+asset,asset
+assets,asset
+attemp,attemperator
+attemperator,attemperator
+average,average
+avg,average
+axial,axial
+backpressure,backpressure
+bank,bank
+baseline,baseline
+baseload,baseload
+bdm,bdm
+bearing,bearing
+bearings,bearing
+bfp,bfp
+bias,bias
+bleed,bleed
+blowdown,blowdown
+bo,bo
+boiler,boiler
+booster,booster
+bp,bp
+brg,bearing
+btgj,btgj
+btj,btj
+buffer,buffer
+burner,burner
+calibration,calibration
+casing,casing
+cat,cat
+cation,cation
+center,center
+ch,ch
+chart,chart
+charts,chart
+chiller,chiller
+circ,circ
+cleared,cleared
+close,close
+closed,close
+closely,close
+closing,close
+cmm,cmm
+co,co
+coal,coal
+cold,cold
+collector,collector
+combustion,combustion
+combustor,combustor
+command,command
+comp,comp
+compressor,compressor
+concentration,concentration
+cond,cond
+condensate,condensate
+condenser,condensate
+condition,condition
+conditions,condition
+conductivity,conductivity
+consistently,consistently
+content,content
+continues,continues
+continuing,continues
+control,control
+controller,control
+coolant,coolant
+cooler,cooler
+cooling,cooling
+core,core
+correct,correct
+correctly,correct
+correlate,correlate
+correlates,correlate
+correspond,correspond
+counts,counts
+coupling,coupling
+ctg,ctg
+ctrl,control
+current,current
+curtailed,curtailed
+curtailment,curtailed
+cv,cv
+cw,cw
+cycle,cycle
+cycling,cycle
+cyl,cylinder
+cylinder,cylinder
+cylinders,cylinder
+damper,damper
+data,data
+datafeed,datafeed
+dates,dates
+day,day
+de,de
+decrease,decrease
+decreased,decrease
+decreases,decrease
+decreasing,decrease
+delivery,delivery
+delta,delta
+demand,demand
+desup,desuperheater
+desuperheater,desuperheater
+detector,detector
+detectors,detector
+deviate,deviate
+deviated,deviate
+deviating,deviate
+deviation,deviate
+deviations,deviate
+diff,difference
+differential,differential
+disc,disc
+disch,discharge
+discharge,discharge
+displacement,displacement
+displaying,displaying
+dissolved,dissolved
+dmd,dmd
+downward,downward
+dp,dp
+drain,drain
+drive,drive
+driver,driver
+dropped,dropped
+dropping,dropped
+drum,drum
+dsh,dsh
+duct,duct
+econ,econ
 economizer,economizer
-ff,ff
+efficiency,efficiency
+electrical,electrical
+elevated,elevated
+engine,engine
+erratic,erratic
+erratically,erratic
+estimate,estimate
+estimated,estimate
+estimates,estimate
+exceeded,exceeded
+exceeding,exceeded
+exciter,exciter
+exh,exhaust
+exhaust,exhaust
+exhibited,exhibited
+exhibiting,exhibited
+fan,fan
+fans,fan
+faulted,faulted
+fd,fd
+february,february
+feed,feed
+feedwater,feedwater
+fi,fi
+filter,filter
+firing,firing
+fixed,fixed
+flame,flame
+flat,flat
+flatline,flatline
+flatlined,flatline
+flatlines,flatline
+flatlining,flatline
+flow,flow
+flows,flow
+fluctuate,fluctuate
+fluctuating,fluctuate
+fluctuations,fluctuate
+flue,flue
+fluid,fluid
+fo,fo
+fr,fr
+frequently,frequently
+fuel,fuel
+fw,fw
+fwh,fwh
+fwp,fw pump
+gas,gas
+gb,gb
+gear,gear
+gearbox,gearbox
+geip,geip
+gen,generator
+generator,generator
+gg,gg
+gradually,gradual
+gross,gross
+gt,gt
+heat,heat
+heater,heater
+heating,heat
+hg,hg
+historical,historical
+historically,historical
+ho,ho
+horizontal,horizontal
+hot,hot
+hotter,hotter
+hottest,hottest
+hotwell,hotwell
+hp,hp
+hpt,hpt
+hrsg,hrsg
+hrsgs,hrsgs
+hs,hs
+ht,ht
+htr,htr
+hydraulic,hydraulic
+hydrogen,hydrogen
+ib,ib
+igv,igv
+improved,improved
+ims,ims
+inactive,inactive
+inboard,inboard
+incidents,incidents
+increase,increase
+increases,increase
+increasing,increase
+industrial,industrial
+inh,inh
+inho,inho
+injection,injection
+inlet,inlet
+inline,inline
+inner,inner
+instances,instances
+instrument,instrument
+instrumentation,instrument
+intermittent,intermittent
+intermittently,intermittent
+interstage,interstage
+ip,ip
+issue,issue
+issues,issue
+itl,itl
+jacket,jacket
+journal,journal
+lagging,lagging
+late,late
+lb,lb
+leak,leak
+lined,lined
+liquid,liquid
+lo,lo
+load,load
+loss,loss
+low,low
+lower,lower
+lp,lp
+lube,lube
+lvl,level
+machine,machine
+magnitude,magnitude
+mass,mass
+max,maximum
+mech,mechanical
+mechanical,mechanical
+metal,metal
+mill,mill
+mills,mill
+model,model
+models,model
+monitor,monitor
+monitoring,monitor
+motor,motor
+mt,motor
+mtl,metal
+mtr,motor
+nan,nan
+nans,nan
+nde,nde
+notification,notification
+nox,nox
+ob,ob
+observed,observed
+occasionally,occasionally
+occured,occured
+occurring,occured
+oil,oil
+ongoing,ongoing
+op,op
+operational,operational
+oscillating,oscillating
+outboard,outboard
+outer,outer
+outlet,outlet
+par,par
+pattern,pattern
+pdi,pdi
+peak,peak
+peaked,peak
+peaks,peak
+perf,performance
+performance,performance
+periodically,periodically
+periods,periodically
+persist,persist
+persisted,persist
+persists,persist
+ph,ph
+phase,phase
+pi,pi
+piston,piston
+pmp,pump
+poor,poor
+poorly,poor
+pos,position
+position,position
+positions,position
+positive,position
+post,post
+posted,post
+power,power
+prc,prc
+predicted,predicted
+prediction,predicted
+predictions,predicted
+prefilter,prefilter
+preheater,preheater
+press,pressure
+pressure,pressure
+pressures,pressure
+pretty,pretty
+priority,priority
+probe,probe
+probes,probe
+process,process
+producing,producing
+projected,projected
+prox,prox
+pump,pump
+pumps,pump
+purity,purity
+pv,pv
+radial,radial
+ramp,ramp
+range,range
+ranged,range
+ranges,range
+ranging,range
+rapid,rapid
+rapidly,rapid
+rd,rd
+reaches,reaches
+reaching,reaches
+read,read
+reading,read
+readings,read
+reads,read
+rear,rear
+recirc,recirc
+recovered,recovered
+recycle,recycle
+rel,rel
+relatively,relatively
+remained,remained
+removed,removed
+repaired,repair
+reporting,reporting
+residual,residual
+residuals,residual
+resolve,resolve
+restart,restart
+restarted,restart
+returns,returns
+rh,rh
+rising,rising
+rose,rose
+rot,rot
+rotor,rotor
+rtd,rtd
+run,run
+sample,sample
+sat,sat
+seal,seal
+seis,seismic
+sensor,sensor
+sensors,sensor
+servo,servo
+sh,sh
+shaft,shaft
+shell,shell
+shield,shield
+shifted,shifted
+shifts,shifted
+short,short
+siemens,siemens
+signal,signal
+silica,silica
+slight,slight
+slowly,slowly
+smartsignal,smartsignal
+sodium,sodium
+sp,sp
+spec,spec
+speed,speed
+spike,spike
+spiked,spike
+spikes,spike
+spiking,spike
+spray,spray
+spread,spread
+spreads,spread
+ssc,ssc
+st,st
+stack,stack
+start,start
+starts,start
+startup,startup
+startups,startup
+stator,stator
+steadily,steadily
+steady,steady
+steam,steam
+step,step
+stepped,step
+stepping,step
+stg,stage
+stm,stm
+stopped,stopped
+strainer,strainer
+street,street
+stripe,stripe
+strut,strut
+suction,suction
+sump,sump
+superheater,superheater
+swinging,swinging
+tag,tag
+tags,tag
+tank,tank
+tc,thermocouple
+temp,temperature
+temperature,temperature
+temps,temperature
+th,th
+thermocouple,thermocouple
+thermocouples,thermocouple
+threshold,threshold
+throughout,throughout
+thrust,thrust
+ti,ti
+tia,tia
+timeframe,timeframe
+tmp,temperature
+tower,tower
+towers,tower
+traced,traced
+track,track
+tracked,track
+tracking,track
+tracks,track
+train,train
+trained,train
+transmitter,transmitter
+transmitters,transmitter
+trend,trend
+trended,trend
+trending,trend
+trip,trip
+truck,truck
+tt,tt
+ttwsao,ttwsao
+ttxd,ttxd
+tube,tube
+turb,turbine
+turbine,turbine
+turbines,turbine
+unchanged,unchanged
+unit,unit
+upward,upward
+values,values
+valve,valve
+valves,valve
+variable,variable
+varying,varying
+vent,vent
+versus,versus
+vib,vibration
+vibe,vibe
+vibes,vibe
+vibration,vibration
+vibrations,vibration
+vibs,vibration
+vlv,valve
+voltage,volts
+water,water
+waterbox,waterbox
+wheel,wheel
+wheelspace,wheelspace
+wind,wind
+winding,wind
+wsao,wsao
+wtr,water
+xmtr,xmtr
+xq,xq
+cp,cp
+cep,cep
+agb,agb
+vert,vertical
+magnetic,magnetic
+smart,smart
+unstable,unstable
+acoustic,acoustic
+gradual,gradual
+rr,rr
+vertical,vertical
+reliable,reliable
+apparent,apparent
+fwpb,fwpb
+gec,gec
+castellon,castellon
+notable,notable
+upset,upset
+gtdl,gtdl
+chip,chip
+packing,packing
+alternator,alternator
+expander,expander
+separator,separator
+amplitude,amplitude
+scrubber,scrubber
+tunnel,tunnel
+scanner,scanner
+transducer,transducer
+velocity,velocity
+fpt,fpt
+fp,fp
+intercooler,intercooler
+scavenge,scavenge
+pulv,pulverizer
+cst,cst
+gaphoss,gaphoss
+lcv,lcv
+angle,angle
+reservoir,reservoir
+rule,rule
+bd,bd
+inbrd,inbrd
+srv,srv
+turbo,turbo
+cdt,cdt
+enclosure,enclosure
+intensity,intensity
+oxygen,oxygen
+bed,bed
+charge,charge
+device,device
+fcv,fcv
+cell,cell
+filters,filter
+mark,mark
+nacelle,nacelle
+pulverizer,pulverizer
+teg,teg
+vacuum,vacuum
+bst,bst
+cut,cut
+fairly,fairly
+horiz,horizontal
+para,para
+pc,pc
+reheat,reheat
+thresholds,threshold
+trucks,truck
+box,box
+brgx,bearing
+downwards,downward
+fwpa,fwpa
+nearly,nearly
+plant,plant
+server,server
+brgy,bearing
+comb,comb
+egt,egt
+health,health
+reactive,reactive
+reboiler,reboiler
+repair,repair
+setpoint,setpoint
+tcaphoss,tcaphoss
+upwards,upward
+advisories,advisories
+barrel,barrel
+beds,bed
+exchanger,exchanger
+export,export
+instruments,instrument
+investigation,investigation
+loop,loop
+pri,pri
+scr,scr
+seals,seal
+model estimate,model estimate
+bearing temp,bearing temperature
+thrust bearing,thrust bearing
+bearing temperature,bearing temperature
+lube oil,lube oil
+bearing metal,bearing metal
+hp drum,hp drum
+valve position,valve position
+bearing vibrations,bearing vibration
+ip drum,ip drum
+metal temp,metal temperature
+axial position,axial position
+model prediction,model predicted
+generator bearing,generator bearing
+fuel gas,fuel gas
+control valve,control valve
+outlet temp,outlet temperature
+model estimates,model estimate
+brg vib,bearing vibration
+metal temperature,metal temperature
+filter dp,filter dp
+bearing vibration,bearing vibration
+exhaust temp,exhaust temperature
+brg temp,bearing temperature
+condition persists,condition persist
+gen bearing,generator bearing
+model predictions,model predicted
+lp drum,lp drum
+outlet temperature,outlet temperature
+mtl temp,metal temperature
+bearing temps,bearing temperature
+exhaust spread,exhaust spread
+drain temp,drain temperature
+model predicted,model predicted
+issue persists,issue persist
+ambient temperature,ambient temperature
+thrust brg,thrust bearing
+duct burner,duct burner
+brg mtl,bearing metal
+motor current,motor current
+steam flow,steam flow
+unit start,unit start
+differential pressure,differential pressure
+exhaust tc,exhaust thermocouple
+inlet pressure,inlet pressure
+nde bearing,nde bearing
+unit run,unit run
+inlet temp,inlet temperature
+discharge pressure,discharge pressure
+drum ph,drum ph
+ob bearing,ob bearing
+oil pressure,oil pressure
+performance tag,performance tag
+turbine bearing,turbine bearing
+gross load,gross load
+de bearing,de bearing
+motor stator,motor stator
+model performance,model performance
+oil drain,oil drain
+temp decreased,temperature decrease
+drum fw,drum fw
+fw flow,fw flow
+hydrogen purity,hydrogen purity
+ip steam,ip steam
+ib bearing,ib bearing
+vibration sensor,vibration sensor
+exhaust temperature,exhaust temperature
+oil temperature,oil temperature
+compressor inlet,compressor inlet
+oil filter,oil filter
+stator temp,stator temperature
+suction temperature,suction temperature
+de seal,de seal
+gradually increasing,gradual increase
+ob brg,ob bearing
+journal bearing,journal bearing
+discharge temperature,discharge temperature
+ib brg,ib bearing
+gas flow,gas flow
+reporting values,reporting values
+oil temp,oil temperature
+thrust position,thrust position
+lp steam,lp steam
+ao temp,ao temperature
+hp steam,hp steam
+ammonia flow,ammonia flow
+inactive thrust,inactive thrust
+low load,low load
+seal outlet,seal outlet
+mechanical tag,mechanical tag
+nde seal,nde seal
+gas temp,gas temperature
+wind speed,wind speed
+inlet temperature,inlet temperature
+motor ib,motor ib
+condition continues,condition continues
+outlet flow,outlet flow
+seal oil,seal oil
+bearing drain,bearing drain
+fuel delivery,fuel delivery
+delivery pressure,delivery pressure
+rotor fan,rotor fan
+unit restart,unit restart
+inlet bleed,inlet bleed
+lo temp,lo temperature
+spray flow,spray flow
+steam temperature,steam temperature
+wind turbine,wind turbine
+diff press,difference pressure
+model model,model model
+reading erratic,read erratic
+seal gas,seal gas
+hp fw,hp fw
+oil cooler,oil cooler
+strut pressure,strut pressure
+bearing vib,bearing vibration
+bearing oil,bearing oil
+bleed heat,bleed heat
+brg metal,bearing metal
+pump ib,pump ib
+sensor issue,sensor issue
+gas pressure,gas pressure
+valve differential,valve differential
+condition cleared,condition cleared
+performance alias,performance alias
+tracking erratically,track erratic
+persists issue,persist issue
+temp range,temperature range
+temperature spread,temperature spread
+suction pressure,suction pressure
+model perf,model performance
+reading erratically,read erratic
+drain temperature,drain temperature
+pump ob,pump ob
+model mechanical,model mechanical
+motor ob,motor ob
+steam turbine,steam turbine
+valve demand,valve demand
+temp stepped,temperature step
+pressure steam,pressure steam
+gear bearing,gear bearing
+ip fw,ip fw
+spray valve,spray valve
+steam temp,steam temperature
+winding temp,wind temperature
+fuel pressure,fuel pressure
+hrsg hp,hrsg hp
+hrsg inlet,hrsg inlet
+metal temps,metal temperature
+motor bearing,motor bearing
+nde brg,nde bearing
+gas control,gas control
+pressure decreased,pressure decrease
+faulted data,faulted data
+valve pos,valve position
+cooling air,cooling air
+discharge flow,discharge flow
+drain valve,drain valve
+exhaust gas,exhaust gas
+fw pump,fw pump
+gas temperature,gas temperature
+rear strut,rear strut
+turbine exhaust,turbine exhaust
+inlet gas,inlet gas
+motor winding,motor wind
+air temp,air temperature
+fan dp,fan dp
+heat valve,heat valve
+inlet filter,inlet filter
+reading lower,read lower
+temperature sensor,temperature sensor
+gen brg,generator bearing
+bearing axial,bearing axial
+diff cv,difference cv
+exhaust temps,exhaust temperature
+hrsg outlet,hrsg outlet
+gearbox oil,gearbox oil
+rear gen,rear generator
+discharge temp,discharge temperature
+flat lined,flat lined
+lower load,lower load
+de nde,de nde
+delta press,delta pressure
+winding temps,wind temperature
+ambient temp,ambient temperature
+gas outlet,gas outlet
+gradually decreasing,gradual decrease
+recirc valve,recirc valve
+de brg,de bearing
+ip blowdown,ip blowdown
+model gas,model gas
+temperature decreased,temperature decrease
+air flow,air flow
+coolant pressure,coolant pressure
+cooler outlet,cooler outlet
+temperature nde,temperature nde
+turb brg,turbine bearing
+hs rot,hs rot
+ims gen,ims generator
+turbine speed,turbine speed
+hot air,hot air
+water flow,water flow
+brg oil,bearing oil
+inlet air,inlet air
+outboard bearing,outboard bearing
+pressure core,pressure core
+steadily increasing,steadily increase
+buffer gas,buffer gas
+fan ib,fan ib
+flame detector,flame detector
+gas press,gas pressure
+radial bearing,radial bearing
+reading flatlined,read flatline
+trained data,train data
+hrsg ip,hrsg ip
+prefilter fuel,prefilter fuel
+pump discharge,pump discharge
+recycle valve,recycle valve
+temp bearing,temperature bearing
+trending low,trend low
+vibration tags,vibration tag
+drain temps,drain temperature
+exhaust pressure,exhaust pressure
+flow decreased,flow decrease
+fw pmp,fw pump
+gas inlet,gas inlet
+gt vibration,gt vibration
+historical values,historical values
+motor nde,motor nde
+steam pressure,steam pressure
+steam sodium,steam sodium
+temp spread,temperature spread
+attemperator spray,attemperator spray
+bearing position,bearing position
+brg temps,bearing temperature
+gearbox bearing,gearbox bearing
+hrsg drum,hrsg drum
+burner spread,burner spread
+cooling tower,cooling tower
+hp attemperator,hp attemperator
+hrsg stack,hrsg stack
+industrial prc,industrial prc
+outlet temps,outlet temperature
+rel vib,rel vibration
+spec conductivity,spec conductivity
+stator temperature,stator temperature
+wheelspace temp,wheelspace temperature
+burner outlet,burner outlet
+cat cond,cat cond
+hp attemp,hp attemperator
+ims rot,ims rot
+inboard bearing,inboard bearing
+positive residuals,position residual
+pressure dropped,pressure dropped
+steam alias,steam alias
+steam tag,steam tag
+temperature differential,temperature differential
+turbine temperature,turbine temperature
+drum conductivity,drum conductivity
+hot gas,hot gas
+coal flow,coal flow
+compressor outlet,compressor outlet
+exh temp,exhaust temperature
+flow valve,flow valve
+flue gas,flue gas
+spec cond,spec cond
+strainer dp,strainer dp
+air delta,air delta
+burner fuel,burner fuel
+ch vib,ch vibration
+condensate pump,condensate pump
+delta temp,delta temperature
+hp sh,hp sh
+max spread,maximum spread
+outlet pressure,outlet pressure
+steam drum,steam drum
+stepped low,step low
+suction temp,suction temperature
+antisurge valve,antisurge valve
+data trained,data train
+fo temp,fo temperature
+fuel flow,fuel flow
+oil tank,oil tank
+slowly increasing,slowly increase
+temperature wheelspace,temperature wheelspace
+axial probe,axial probe
+chip detector,chip detector
+exhaust spreads,exhaust spread
+exhaust thermocouple,exhaust thermocouple
+performance model,performance model
+pump de,pump de
+steam silica,steam silica
+tracking model,track model
+wheelspace ao,wheelspace ao
+condenser backpressure,condensate backpressure
+displaying erratic,displaying erratic
+generator temp,generator temperature
+injection flow,injection flow
+mass flow,mass flow
+model mech,model mechanical
+model tag,model tag
+outlet gas,outlet gas
+pump thrust,pump thrust
+stator temps,stator temperature
+temp ti,temperature ti
+ti pv,ti pv
+winding temperature,wind temperature
+blowdown silica,blowdown silica
+combustion performance,combustion performance
+ctrl vlv,control valve
+drum spec,drum spec
+gas filter,gas filter
+heating control,heat control
+model electrical,model electrical
+model fuel,model fuel
+position sensor,position sensor
+suction flow,suction flow
+suction strainer,suction strainer
+temp dropped,temperature dropped
+air inlet,air inlet
+attemperator outlet,attemperator outlet
+compressor discharge,compressor discharge
+compressor performance,compressor performance
+ctg brg,ctg bearing
+cv pos,cv position
+fd fan,fd fan
+historical data,historical data
+inlet heating,inlet heat
+inlet press,inlet pressure
+ip attemperator,ip attemperator
+lo cooler,lo cooler
+nde vibrations,nde vibration
+pressure stepped,pressure step
+sp cond,sp cond
+temp increases,temperature increase
+water injection,water injection
+adaptation fuel,adaptation fuel
+ambient temps,ambient temperature
+cleared closing,cleared close
+damper position,damper position
+gg exhaust,gg exhaust
+hrsg lp,hrsg lp
+oil press,oil pressure
+piston leak,piston leak
+remained elevated,remained elevated
+remained steady,remained steady
+trending lower,trend lower
+vib brg,vibration bearing
+air temperature,air temperature
+bfp suction,bfp suction
+cold gas,cold gas
+cooling water,cooling water
+de vibrations,de vibration
+exciter brg,exciter bearing
+gear oil,gear oil
+gt bearing,gt bearing
+model compressor,model compressor
+model wheelspace,model wheelspace
+perf alias,performance alias
+poor tracking,poor track
+reading low,read low
+rotor vibration,rotor vibration
+temperature ti,temperature ti
+vibration reading,vibration read
+air damper,air damper
+bearing vibes,bearing vibe
+cation conductivity,cation conductivity
+core fuel,core fuel
+cylinder exhaust,cylinder exhaust
+filter diff,filter difference
+fw lvl,fw level
+inlet flow,inlet flow
+pdi pv,pdi pv
+temperature sensors,temperature sensor
+temperature tag,temperature tag
+turbine wheelspace,turbine wheelspace
+water ph,water ph
+delta pressure,delta pressure
+hrsg bfp,hrsg bfp
+lvl ctrl,level control
+mill motor,mill motor
+outlet press,outlet pressure
+temp tracks,temperature track
+temp xmtr,temperature xmtr
+water temperature,water temperature
+wheelspace rd,wheelspace rd
+wheelspace st,wheelspace st
+air outlet,air outlet
+air pressure,air pressure
+blowdown ph,blowdown ph
+cond pump,cond pump
+drum water,drum water
+fan differential,fan differential
+fan ob,fan ob
+fluid coupling,fluid coupling
+fwp lube,fw pump lube
+perf model,performance model
+pump nde,pump nde
+read erratically,read erratic
+reporting nans,reporting nan
+speed shaft,speed shaft
+ambient air,ambient air
+brg vibration,bearing vibration
+estimate rear,estimate rear
+exh gas,exhaust gas
+exhibiting erratic,exhibited erratic
+low speed,low speed
+phase current,phase current
+recirc flow,recirc flow
+servo current,servo current
+tracked erratically,track erratic
+trending upward,trend upward
+turb exh,turbine exhaust
+turbine outlet,turbine outlet
+turbine thrust,turbine thrust
+alias fuel,alias fuel
+alias hp,alias hp
+cold air,cold air
+drum press,drum pressure
+drum sp,drum sp
+exhaust steam,exhaust steam
+flame scanner,flame scanner
+fw valve,fw valve
+gas spread,gas spread
+gg bearing,gg bearing
+model combustor,model combustor
+perf tag,performance tag
+stack temp,stack temperature
+stator phase,stator phase
+temp avg,temperature average
+temps decreased,temperature decrease
+vlv pos,valve position
+curtailment cleared,curtailed cleared
+cv range,cv range
+drum pressure,drum pressure
+duct pressure,duct pressure
+filter differential,filter differential
+flame intensity,flame intensity
+hp ip,hp ip
+lower ambient,lower ambient
+pmp axial,pump axial
+priority notification,priority notification
+pump bearing,pump bearing
+rh attemp,rh attemperator
+sh dsh,sh dsh
+stg suction,stage suction
+temp diff,temperature difference
+temperature de,temperature de
+tracking low,track low
+turbine brg,turbine bearing
+water jacket,water jacket
+wheelspace fo,wheelspace fo
+wheelspace temps,wheelspace temperature
+ah gas,ah gas
+condensate ph,condensate ph
+delta temperature,delta temperature
+erratic values,erratic values
+fi temp,fi temperature
+gas delta,gas delta
+gas fuel,gas fuel
+generator rotor,generator rotor
+hpt control,hpt control
+lp recirc,lp recirc
+mechanical alias,mechanical alias
+mt cv,motor cv
+oil outlet,oil outlet
+persists condition,persist condition
+seal inlet,seal inlet
+stator winding,stator wind
+temp continues,temperature continues
+tracking lower,track lower
+vib sensor,vibration sensor
+air filter,air filter
+attemp spray,attemperator spray
+brg axial,bearing axial
+circ water,circ water
+cooler oil,cooler oil
+dsh outlet,dsh outlet
+generator speed,generator speed
+hydraulic oil,hydraulic oil
+inner seal,inner seal
+outer temp,outer temperature
+pretty accurately,pretty accurately
+smart signal,smart signal
+steam cat,steam cat
+temperature dropped,temperature dropped
+temperature tags,temperature tag
+track erratically,track erratic
+tracking pretty,track pretty
+alias compressor,alias compressor
+coal air,coal air
+combustor performance,combustor performance
+cw waterbox,cw waterbox
+diff pressure,difference pressure
+erratic readings,erratic read
+filter pressure,filter pressure
+generator de,generator de
+generator stator,generator stator
+inactive metal,inactive metal
+ph reading,ph read
+reading stepped,read step
+steam outlet,steam outlet
+temp cv,temperature cv
+temp tag,temperature tag
+turb thrust,turbine thrust
+bearing tunnel,bearing tunnel
+bleed valve,bleed valve
+boiler water,boiler water
+compressor speed,compressor speed
+continues condition,continues condition
+cooler water,cooler water
+cv position,cv position
+desuperheater outlet,desuperheater outlet
+drum boiler,drum boiler
+gas dp,gas dp
+gb driver,gb driver
+ip hrsg,ip hrsg
+jacket inlet,jacket inlet
+load decreased,load decrease
+position decreased,position decrease
+residual thresholds,residual threshold
+seal filter,seal filter
+sh steam,sh steam
+st bearing,st bearing
+temp mt,temperature motor
+temperature increases,temperature increase
+vibration readings,vibration read
+vlv dmd,valve dmd
+adaptation combustion,adaptation combustion
+adaptation mech,adaptation mechanical
+axial displacement,axial displacement
+booster pump,booster pump
+combustion perf,combustion performance
+compressor bearing,compressor bearing
+de journal,de journal
+disch press,discharge pressure
+feedwater valve,feedwater valve
+fw cv,fw cv
+hp blowdown,hp blowdown
+hrsg gas,hrsg gas
+intercooler coolant,intercooler coolant
+lo pressure,lo pressure
+lo temperature,lo temperature
+lp condenser,lp condensate
+mech model,mechanical model
+model hp,model hp
+motor de,motor de
+power turbine,power turbine
+pump axial,pump axial
+reading nans,read nan
+seal dp,seal dp
+seal pressure,seal pressure
+sensor repaired,sensor repair
+siemens tower,siemens tower
+temp increase,temperature increase
+temperature spiked,temperature spike
+thrust positions,thrust position
+turb lo,turbine lo
+unit restarted,unit restart
+valve diff,valve difference
+wheelspace temperature,wheelspace temperature
+adaptation wheelspace,adaptation wheelspace
+axial positions,axial position
+brg fr,bearing fr
+compressor efficiency,compressor efficiency
+cp nde,cp nde
+current reading,current read
+desup spray,desuperheater spray
+drum wtr,drum water
+duct firing,duct firing
+fan vibrations,fan vibration
+flatlined data,flatline data
+fw htr,fw htr
+gas turbine,gas turbine
+gg velocity,gg velocity
+gt load,gt load
+inlet duct,inlet duct
+inlet steam,inlet steam
+low alarm,low alarm
+motor outboard,motor outboard
+motor temp,motor temperature
+ph decreased,ph decrease
+pi pv,pi pv
+press range,pressure range
+pressure spiked,pressure spike
+pressure tag,pressure tag
+shaft radial,shaft radial
+shaft vibration,shaft vibration
+temperature continues,temperature continues
+temperature increase,temperature increase
+tracking accurately,track accurately
+turbine generator,turbine generator
+turbo expander,turbo expander
+valve servo,valve servo
+vibrations spiked,vibration spike
+acoustic sensor,acoustic sensor
+ah air,ah air
+axial pos,axial position
+current phase,current phase
+dp decreased,dp decrease
+driver thrust,driver thrust
+engine oil,engine oil
+erratic reading,erratic read
+feedwater flow,feedwater flow
+generator nde,generator nde
+hp desup,hp desuperheater
+hp feedwater,hp feedwater
+hp vib,hp vibration
+hydrogen gas,hydrogen gas
+intermittently reading,intermittent read
+motor vibrations,motor vibration
+mtl temps,metal temperature
+reading values,read values
+sat sh,sat sh
+spray water,spray water
+spread cv,spread cv
+st load,st load
+stack inlet,stack inlet
+temperature reading,temperature read
+valve positions,valve position
+vibration stepped,vibration step
+vibrations trending,vibration trend
+wind turbines,wind turbine
+air heater,air heater
+alias hrsg,alias hrsg
+alternator bearing,alternator bearing
+bearing inactive,bearing inactive
+bfp discharge,bfp discharge
+combustion monitor,combustion monitor
+cooler discharge,cooler discharge
+desup outlet,desuperheater outlet
+driver load,driver load
+fan motor,fan motor
+gas differential,gas differential
+gas valve,gas valve
+gen lo,generator lo
+gt nox,gt nox
+hp discharge,hp discharge
+hp superheater,hp superheater
+igv position,igv position
+inho inho,inho inho
+inlet temps,inlet temperature
+mech alias,mechanical alias
+model combustion,model combustion
+ph sample,ph sample
+pressure transmitter,pressure transmitter
+pump motor,pump motor
+pump seal,pump seal
+pump speed,pump speed
+rd stg,rd stage
+rh dsh,rh dsh
+rotor speed,rotor speed
+shaft vibrations,shaft vibration
+superheater outlet,superheater outlet
+temp gen,temperature generator
+temp increasing,temperature increase
+temp wheelspace,temperature wheelspace
+thrust axial,thrust axial
+trained faulted,train faulted
+trend upward,trend upward
+tunnel temperature,tunnel temperature
+vibration brg,vibration bearing
+vibration spiked,vibration spike
+vibration spikes,vibration spike
+wheelspace performance,wheelspace performance
+alarm monitoring,alarm monitor
+alias exhaust,alias exhaust
+bank cylinder,bank cylinder
+bearing vibe,bearing vibe
+brg vibrations,bearing vibration
+chiller cooling,chiller cooling
+condensate sodium,condensate sodium
+cooler fan,cooler fan
+coupling casing,coupling casing
+cp de,cp de
+drum silica,drum silica
+drum steam,drum steam
+flow dropped,flow dropped
+flow stepped,flow step
+gen temp,generator temperature
+gt exhaust,gt exhaust
+hp sat,hp sat
+hpt cv,hpt cv
+intercooler outlet,intercooler outlet
+lo filter,lo filter
+load increase,load increase
+lp fw,lp fw
+mechanical model,mechanical model
+motor inboard,motor inboard
+outboard vib,outboard vibration
+pump outboard,pump outboard
+seal vent,seal vent
+sensor turb,sensor turbine
+steam spec,steam spec
+suction scrubber,suction scrubber
+temp cold,temperature cold
+temp differential,temperature differential
+temp sensor,temperature sensor
+temperature issues,temperature issue
+temperature stepped,temperature step
+temperature tracks,temperature track
+th startup,th startup
+tia pv,tia pv
+valve command,valve command
+vent flow,vent flow
+vib seis,vibration seismic
+adapted data,adaptation data
+average exhaust,average exhaust
+axial shaft,axial shaft
+bfp recirc,bfp recirc
+brg drain,bearing drain
+charge air,charge air
+cleared geip,cleared geip
+condenser pressure,condensate pressure
+consistently reading,consistently read
+consistently trending,consistently trend
+cooler temp,cooler temperature
+ctrl valve,control valve
+current conditions,current condition
+discharge pressures,discharge pressure
+drum differential,drum differential
+engine speed,engine speed
+exhaust duct,exhaust duct
+fr tt,fr tt
+fuel temperature,fuel temperature
+generator drive,generator drive
+heater drain,heater drain
+inbrd brg,inbrd bearing
+load dropped,load dropped
+low values,low values
+lp superheater,lp superheater
+mtr outboard,motor outboard
+pmp mtr,pump motor
+position shifted,position shifted
+posted itl,post itl
+pressure reading,pressure read
+pump disch,pump discharge
+read erratic,read erratic
+reporting data,reporting data
+sat steam,sat steam
+seal flow,seal flow
+stm temp,stm temperature
+suction discharge,suction discharge
+suction drum,suction drum
+tag flatlined,tag flatline
+temps track,temperature track
+turb ob,turbine ob
+unit lower,unit lower
+vibration issues,vibration issue
+vibration sensors,vibration sensor
+vibration transducer,vibration transducer
+vibrations stepped,vibration step
+water inlet,water inlet
+wheel motor,wheel motor
+alias wheel,alias wheel
+ao temperature,ao temperature
+bearing vibs,bearing vibration
+casing vibrations,casing vibration
+circ wtr,circ water
+conditions persist,condition persist
+control oil,control oil
+core monitor,core monitor
+current readings,current read
+current spread,current spread
+cv diff,cv difference
+data feed,data feed
+decreased bearing,decrease bearing
+discharge temps,discharge temperature
+dissolved oxygen,dissolved oxygen
+economizer outlet,economizer outlet
+engine charge,engine charge
+exhaust bearing,exhaust bearing
+exhibited erratic,exhibited erratic
+flow tag,flow tag
+gas concentration,gas concentration
+hp spray,hp spray
+inactive temp,inactive temperature
+inlet pressures,inlet pressure
+ip feedwater,ip feedwater
+ip rh,ip rh
+ip stm,ip stm
+load run,load run
+lp htr,lp htr
+lp turb,lp turbine
+mill current,mill current
+model bearing,model bearing
+model ip,model ip
+model lp,model lp
+motor vibration,motor vibration
+nde buffer,nde buffer
+nde inner,nde inner
+nde journal,nde journal
+notification bp,notification bp
+oil inlet,oil inlet
+op cond,op cond
+outlet steam,outlet steam
+pi data,pi data
+pos range,position range
+predicted issue,predicted issue
+press decreased,pressure decrease
+pressure continues,pressure continues
+radial vibrations,radial vibration
+rotor vib,rotor vibration
+rr notification,rr notification
+seal drain,seal drain
+shaft de,shaft de
+shaft nde,shaft nde
+start model,start model
+temp cyl,temperature cylinder
+temp decreases,temperature decrease
+temp tia,temperature tia
+temp tracking,temperature track
+turbine inlet,turbine inlet
+vib shaft,vibration shaft
+vibrations decreased,vibration decrease
+vibrations tracking,vibration track
+air collector,air collector
+ao temps,ao temperature
+asset performance,asset performance
+attemp outlet,attemperator outlet
+bfp disch,bfp discharge
+cep motor,cep motor
+chip detectors,chip detector
+compressor flow,compressor flow
+compressor mechanical,compressor mechanical
+condensate dissolved,condensate dissolved
+de temp,de temperature
+drum temp,drum temperature
+exciter bearing,exciter bearing
+exhaust press,exhaust pressure
+flow reading,flow read
+fw inlet,fw inlet
+fw lcv,fw lcv
+gas discharge,gas discharge
+generator journal,generator journal
+hp desuperheater,hp desuperheater
+hrsg rh,hrsg rh
+interstage temperature,interstage temperature
+low pressure,low pressure
+lp compressor,lp compressor
+lp econ,lp econ
+lp heater,lp heater
+lp separator,lp separator
+lp vib,lp vibration
+magnetic bearing,magnetic bearing
+mtr ob,motor ob
+nde temp,nde temperature
+nde vib,nde vibration
+packing dp,packing dp
+ph hp,ph hp
+phase winding,phase wind
+pi read,pi read
+pmp de,pump de
+position spiked,position spike
+position tag,position tag
+position tags,position tag
+pressure control,pressure control
+pump vibrations,pump vibration
+read pi,read pi
+reading correctly,read correct
+rear gear,rear gear
+remained flatlined,remained flatline
+sp htr,sp htr
+srv valve,srv valve
+steam model,steam model
+stg brg,stage bearing
+stm spec,stm spec
+tag dates,tag dates
+temp control,temperature control
+temp hot,temperature hot
+temp tracked,temperature track
+temp trending,temperature trend
+vent pressure,vent pressure
+wtr spec,water spec
+air differential,air differential
+bearing journal,bearing journal
+brg vert,bearing vertical
+cooler inlet,cooler inlet
+cylinder bank,cylinder bank
+discharge dp,discharge dp
+drum cat,drum cat
+drum lvl,drum level
+electrical alias,electrical alias
+erratically ranging,erratic range
+fan speed,fan speed
+fi pv,fi pv
+flatline data,flatline data
+flow remained,flow remained
+fuel liquid,fuel liquid
+fuel temp,fuel temperature
+fw conductivity,fw conductivity
+gas generator,gas generator
+gas temps,gas temperature
+gen rotor,generator rotor
+gen turb,generator turbine
+gen winding,generator wind
+hottest rtd,hottest rtd
+hrsg fwpb,hrsg fwpb
+inboard vibration,inboard vibration
+increasing reaching,increase reaches
+ip sat,ip sat
+jacket water,jacket water
+load ramp,load ramp
+lp cooling,lp cooling
+lp economizer,lp economizer
+mill mtr,mill motor
+model projected,model projected
+motor temperature,motor temperature
+mt ssc,motor ssc
+nde generator,nde generator
+ongoing issue,ongoing issue
+outer leak,outer leak
+position demand,position demand
+press cv,pressure cv
+press xmtr,pressure xmtr
+pressure transducer,pressure transducer
+read values,read values
+reading consistently,read consistently
+short run,short run
+slight increase,slight increase
+slowly decreasing,slowly decrease
+st ctrl,st control
+steam conductivity,steam conductivity
+steam press,steam pressure
+stm drum,stm drum
+stm flow,stm flow
+suction water,suction water
+tag ims,tag ims
+temperature remained,temperature remained
+temperature tia,temperature tia
+temperature tracking,temperature track
+tracking poorly,track poor
+trending downward,trend downward
+trip occured,trip occured
+turbine cooling,turbine cooling
+unit load,unit load
+vert shaft,vertical shaft
+vibration spike,vibration spike
+water cv,water cv
+xq hrsg,xq hrsg
+adapted faulted,adaptation faulted
+agb chip,agb chip
+air compressor,air compressor
+alias ip,alias ip
+alias thrust,alias thrust
+barrel temp,barrel temperature
+bfp thrust,bfp thrust
+bp castellon,bp castellon
+brg vibs,bearing vibration
+cep mtr,cep motor
+combustion exhaust,combustion exhaust
+compressor interstage,compressor interstage
+compressor shaft,compressor shaft
+cond pmp,cond pump
+data model,data model
+data range,data range
+de vibration,de vibration
+demand position,demand position
+disch temp,discharge temperature
+dp continues,dp continues
+drum cv,drum cv
+elevated vibrations,elevated vibration
+erratically dropping,erratic dropped
+erratically spiking,erratic spike
+fan bearing,fan bearing
+fi cp,fi cp
+fo temperature,fo temperature
+fwpa pmp,fwpa pump
+gas mass,gas mass
+gt turbine,gt turbine
+gtdl vib,gtdl vibration
+hp compressor,hp compressor
+hydraulic control,hydraulic control
+hydrogen pressure,hydrogen pressure
+inactive mtl,inactive metal
+inlet valve,inlet valve
+inner barrel,inner barrel
+intensity detector,intensity detector
+intermittently dropping,intermittent dropped
+ip attemp,ip attemperator
+ip boiler,ip boiler
+ip desup,ip desuperheater
+ip economizer,ip economizer
+journal vibration,journal vibration
+lp sat,lp sat
+model cooling,model cooling
+model turbine,model turbine
+motor speed,motor speed
+mtr temp,motor temperature
+nde outer,nde outer
+oil pump,oil pump
+peak pressure,peak pressure
+pmp nde,pump nde
+position reading,position read
+purity decreased,purity decrease
+reliable data,reliable data
+residual threshold,residual threshold
+rh inlet,rh inlet
+rot vib,rot vibration
+rotor cooling,rotor cooling
+shaft bearing,shaft bearing
+shaft position,shaft position
+st brg,st bearing
+st generator,st generator
+teg duct,teg duct
+temp phase,temperature phase
+temp reading,temperature read
+temp tc,temperature thermocouple
+temp thrust,temperature thrust
+temp turbine,temperature turbine
+temperature core,temperature core
+temperature flatlined,temperature flatline
+temps tracking,temperature track
+track low,track low
+turbine inner,turbine inner
+upward trend,upward trend
+versus model,versus model
+vert vib,vertical vibration
+vert vibration,vertical vibration
+vertical vibrations,vertical vibration
+vib prox,vibration prox
+vibration bdm,vibration bdm
+vibration probes,vibration probe
+vlv diff,valve difference
+waterbox lp,waterbox lp
+wheelspace fi,wheelspace fi
+xq gen,xq generator
+bearing metal temp,bearing metal temperature
+brg mtl temp,bearing metal temperature
+bearing metal temperature,bearing metal temperature
+gen bearing temp,generator bearing temperature
+thrust bearing temperature,thrust bearing temperature
+generator bearing temperature,generator bearing temperature
+fuel delivery pressure,fuel delivery pressure
+thrust bearing temp,thrust bearing temperature
+inactive thrust bearing,inactive thrust bearing
+model performance tag,model performance tag
+lube oil pressure,lube oil pressure
+inlet bleed heat,inlet bleed heat
+issue persists issue,issue persist issue
+lube oil temperature,lube oil temperature
+control valve position,control valve position
+persists issue persists,persist issue persist
+oil filter dp,oil filter dp
+seal outlet flow,seal outlet flow
+brg metal temp,bearing metal temperature
+fuel gas flow,fuel gas flow
+lube oil filter,lube oil filter
+hp drum ph,hp drum ph
+motor stator temp,motor stator temperature
+lube oil cooler,lube oil cooler
+bleed heat valve,bleed heat valve
+rotor fan dp,rotor fan dp
+bearing oil drain,bearing oil drain
+gas control valve,gas control valve
+oil drain temp,oil drain temperature
+rear gen bearing,rear generator bearing
+compressor inlet pressure,compressor inlet pressure
+ib brg temp,ib bearing temperature
+bearing axial position,bearing axial position
+model mechanical tag,model mechanical tag
+rear strut pressure,rear strut pressure
+bearing temperature nde,bearing temperature nde
+hp drum fw,hp drum fw
+nde bearing temperature,nde bearing temperature
+ob brg temp,ob bearing temperature
+ob bearing temp,ob bearing temperature
+thrust bearing axial,thrust bearing axial
+fuel gas control,fuel gas control
+bearing metal temps,bearing metal temperature
+prefilter fuel pressure,prefilter fuel pressure
+de bearing temperature,de bearing temperature
+ip drum fw,ip drum fw
+nde seal outlet,nde seal outlet
+thrust brg temp,thrust bearing temperature
+ib bearing temp,ib bearing temperature
+duct burner spread,duct burner spread
+hrsg inlet gas,hrsg inlet gas
+de seal outlet,de seal outlet
+generator bearing metal,generator bearing metal
+generator bearing temp,generator bearing temperature
+lo temp bearing,lo temperature bearing
+gas outlet temp,gas outlet temperature
+ip drum ph,ip drum ph
+lp steam flow,lp steam flow
+motor ib bearing,motor ib bearing
+turbine temperature wheelspace,turbine temperature wheelspace
+duct burner fuel,duct burner fuel
+oil drain temperature,oil drain temperature
+spray valve position,spray valve position
+ip fw flow,ip fw flow
+model performance alias,model performance alias
+motor ib brg,motor ib bearing
+thrust bearing metal,thrust bearing metal
+thrust bearing position,thrust bearing position
+heating control valve,heat control valve
+bearing drain temp,bearing drain temperature
+hp fw flow,hp fw flow
+brg oil drain,bearing oil drain
+inlet heating control,inlet heat control
+lube oil temp,lube oil temperature
+ob brg vib,ob bearing vibration
+pressure steam alias,pressure steam alias
+compressor outlet temp,compressor outlet temperature
+flow valve position,flow valve position
+journal bearing temperature,journal bearing temperature
+motor ob brg,motor ob bearing
+temp bearing drain,temperature bearing drain
+axial position sensor,axial position sensor
+burner fuel gas,burner fuel gas
+core fuel delivery,core fuel delivery
+delivery pressure core,delivery pressure core
+drum fw lvl,drum fw level
+ib brg vib,ib bearing vibration
+inlet gas press,inlet gas pressure
+motor ob bearing,motor ob bearing
+pressure core fuel,pressure core fuel
+suction strainer dp,suction strainer dp
+duct burner outlet,duct burner outlet
+fw lvl ctrl,fw level control
+gear bearing temp,gear bearing temperature
+pressure steam tag,pressure steam tag
+drum fw flow,drum fw flow
+fwp lube oil,fw pump lube oil
+gt vibration sensor,gt vibration sensor
+ip blowdown silica,ip blowdown silica
+pump ib brg,pump ib bearing
+rotor fan differential,rotor fan differential
+turbine bearing vibrations,turbine bearing vibration
+inlet filter dp,inlet filter dp
+lp drum fw,lp drum fw
+lube oil tank,lube oil tank
+lvl ctrl vlv,level control valve
+nde brg vib,nde bearing vibration
+pump ob bearing,pump ob bearing
+estimate rear gen,estimate rear generator
+hp steam drum,hp steam drum
+model estimate rear,model estimate rear
+bearing temperature de,bearing temperature de
+control valve demand,control valve demand
+cooler outlet temperature,cooler outlet temperature
+fw pmp axial,fw pump axial
+hp attemperator spray,hp attemperator spray
+hp sh dsh,hp sh dsh
+hrsg drum spec,hrsg drum spec
+pmp axial probe,pump axial probe
+air delta press,air delta pressure
+alias fuel gas,alias fuel gas
+heat valve differential,heat valve differential
+model perf alias,model performance alias
+oil cooler outlet,oil cooler outlet
+steam alias hp,steam alias hp
+condition persists condition,condition persist condition
+de brg vib,de bearing vibration
+filter diff press,filter difference pressure
+gearbox oil temp,gearbox oil temperature
+motor winding temp,motor wind temperature
+attemperator spray flow,attemperator spray flow
+drain valve position,drain valve position
+exhaust temperature spread,exhaust temperature spread
+filter differential pressure,filter differential pressure
+generator rotor fan,generator rotor fan
+gg exhaust temp,gg exhaust temperature
+model combustor performance,model combustor performance
+model compressor performance,model compressor performance
+nde bearing temp,nde bearing temperature
+persists condition persists,persist condition persist
+pump ob brg,pump ob bearing
+recirc valve position,recirc valve position
+turb exh temp,turbine exhaust temperature
+attemperator outlet temperature,attemperator outlet temperature
+condition continues condition,condition continues condition
+cooler water flow,cooler water flow
+drum boiler water,drum boiler water
+fw flow valve,fw flow valve
+hp drum conductivity,hp drum conductivity
+hpt control valve,hpt control valve
+lp drum ph,lp drum ph
+model perf tag,model performance tag
+motor stator temperature,motor stator temperature
+tracking pretty accurately,track pretty accurately
+turbine bearing tunnel,turbine bearing tunnel
+water injection flow,water injection flow
+air filter dp,air filter dp
+continues condition continues,continues condition continues
+control valve differential,control valve differential
+drum sp cond,drum sp cond
+dsh outlet temperature,dsh outlet temperature
+fuel gas pressure,fuel gas pressure
+gen bearing metal,generator bearing metal
+motor winding temperature,motor wind temperature
+oil cooler oil,oil cooler oil
+outlet temp range,outlet temperature range
+seal gas filter,seal gas filter
+water jacket inlet,water jacket inlet
+attemp spray valve,attemperator spray valve
+exh gas temp,exhaust gas temperature
+hot air damper,hot air damper
+hrsg outlet temp,hrsg outlet temperature
+motor nde brg,motor nde bearing
+temp ti pv,temperature ti pv
+turb lo temp,turbine lo temperature
+turbine exhaust pressure,turbine exhaust pressure
+turbine thrust bearing,turbine thrust bearing
+antisurge valve position,antisurge valve position
+attemperator spray valve,attemperator spray valve
+cooler oil outlet,cooler oil outlet
+de journal bearing,de journal bearing
+exhaust gas temp,exhaust gas temperature
+fan ib brg,fan ib bearing
+gas delta press,gas delta pressure
+gas filter dp,gas filter dp
+gas inlet pressure,gas inlet pressure
+generator de bearing,generator de bearing
+hrsg ip drum,hrsg ip drum
+inlet air filter,inlet air filter
+intercooler coolant pressure,intercooler coolant pressure
+low speed shaft,low speed shaft
+model mechanical alias,model mechanical alias
+mt cv range,motor cv range
+oil drain temps,oil drain temperature
+pump discharge pressure,pump discharge pressure
+pump ib bearing,pump ib bearing
+temp mt cv,temperature motor cv
+turb thrust brg,turbine thrust bearing
+ah gas delta,ah gas delta
+bearing tunnel temperature,bearing tunnel temperature
+compressor inlet temperature,compressor inlet temperature
+compressor performance tag,compressor performance tag
+gas differential pressure,gas differential pressure
+gear oil temp,gear oil temperature
+gen lo temp,generator lo temperature
+thrust bearing temps,thrust bearing temperature
+thrust brg axial,thrust bearing axial
+trained faulted data,train faulted data
+brg vib seis,bearing vibration seismic
+chiller cooling tower,chiller cooling tower
+condition cleared closing,condition cleared close
+de bearing temp,de bearing temperature
+de seal dp,de seal dp
+drum fw valve,drum fw valve
+fan differential pressure,fan differential pressure
+fuel gas temperature,fuel gas temperature
+hp attemp spray,hp attemperator spray
+hp drum sp,hp drum sp
+ip drum conductivity,ip drum conductivity
+ip steam flow,ip steam flow
+jacket inlet pressure,jacket inlet pressure
+model mech alias,model mechanical alias
+motor bearing temperature,motor bearing temperature
+ob bearing vibrations,ob bearing vibration
+rotor vibration brg,rotor vibration bearing
+sh dsh outlet,sh dsh outlet
+thrust bearing inactive,thrust bearing inactive
+burner outlet gas,burner outlet gas
+ctrl vlv dmd,control valve dmd
+delta temp cv,delta temperature cv
+drum ph sample,drum ph sample
+drum water ph,drum water ph
+exhaust steam temperature,exhaust steam temperature
+fuel gas inlet,fuel gas inlet
+gt bearing metal,gt bearing metal
+hp steam sodium,hp steam sodium
+hrsg hp drum,hrsg hp drum
+ib brg mtl,ib bearing metal
+ip attemperator spray,ip attemperator spray
+ip steam sodium,ip steam sodium
+journal bearing temp,journal bearing temperature
+lp drum press,lp drum pressure
+model model performance,model model performance
+motor current phase,motor current phase
+motor stator temps,motor stator temperature
+nde bearing vibrations,nde bearing vibration
+ob brg mtl,ob bearing metal
+oil outlet temp,oil outlet temperature
+outboard bearing temp,outboard bearing temperature
+outlet temp decreased,outlet temperature decrease
+recycle valve demand,recycle valve demand
+temp diff cv,temperature difference cv
+turbine outlet temp,turbine outlet temperature
+unit lower load,unit lower load
+air outlet temp,air outlet temperature
+bearing temp stepped,bearing temperature step
+bearing temp tracks,bearing temperature track
+bearing vibration sensor,bearing vibration sensor
+control valve pos,control valve position
+de bearing vibrations,de bearing vibration
+desup outlet temp,desuperheater outlet temperature
+driver thrust bearing,driver thrust bearing
+engine charge air,engine charge air
+exhaust temp spread,exhaust temperature spread
+gas inlet temp,gas inlet temperature
+gb driver thrust,gb driver thrust
+gt vibration transducer,gt vibration transducer
+hot gas temperature,hot gas temperature
+intercooler outlet temperature,intercooler outlet temperature
+ip drum water,ip drum water
+model wheelspace performance,model wheelspace performance
+nde journal bearing,nde journal bearing
+outlet gas spread,outlet gas spread
+outlet temp mt,outlet temperature motor
+phase current spread,phase current spread
+seal oil pressure,seal oil pressure
+turb ob brg,turbine ob bearing
+wheelspace ao temp,wheelspace ao temperature
+ah air outlet,ah air outlet
+alias compressor outlet,alias compressor outlet
+ambient air temp,ambient air temperature
+bearing temp decreased,bearing temperature decrease
+cylinder exhaust temp,cylinder exhaust temperature
+cylinder exhaust temperature,cylinder exhaust temperature
+drum fw lcv,drum fw lcv
+drum wtr spec,drum water spec
+exhaust duct pressure,exhaust duct pressure
+fan ib bearing,fan ib bearing
+fluid coupling casing,fluid coupling casing
+fw pmp mtr,fw pump motor
+gas temperature spread,gas temperature spread
+gearbox bearing temp,gearbox bearing temperature
+generator journal bearing,generator journal bearing
+generator nde bearing,generator nde bearing
+heat valve position,heat valve position
+hp drum boiler,hp drum boiler
+hp spray flow,hp spray flow
+inlet filter differential,inlet filter differential
+ip rh dsh,ip rh dsh
+motor outboard bearing,motor outboard bearing
+mtr ob brg,motor ob bearing
+nde bearing vibration,nde bearing vibration
+nde inner seal,nde inner seal
+performance alias exhaust,performance alias exhaust
+pi read pi,pi read pi
+read pi data,read pi data
+rear gear bearing,rear gear bearing
+rel vib shaft,rel vibration shaft
+rotor vib brg,rotor vibration bearing
+seal gas dp,seal gas dp
+spray valve pos,spray valve position
+steam cat cond,steam cat cond
+wtr spec conductivity,water spec conductivity
+air differential pressure,air differential pressure
+bfp recirc valve,bfp recirc valve
+bfp suction water,bfp suction water
+brg axial pos,bearing axial position
+brg drain temp,bearing drain temperature
+brg temp decreased,bearing temperature decrease
+combustor performance tag,combustor performance tag
+compressor discharge temperature,compressor discharge temperature
+condensate pump discharge,condensate pump discharge
+control valve diff,control valve difference
+cooling air differential,cooling air differential
+de brg mtl,de bearing metal
+desuperheater outlet temp,desuperheater outlet temperature
+fuel gas temp,fuel gas temperature
+gas discharge dp,gas discharge dp
+gearbox oil temperature,gearbox oil temperature
+gen winding temps,generator wind temperature
+generator bearing temps,generator bearing temperature
+hp drum differential,hp drum differential
+hp fw cv,hp fw cv
+hrsg stack temp,hrsg stack temperature
+lo filter dp,lo filter dp
+lp cooling air,lp cooling air
+mill mtr ob,mill motor ob
+model electrical alias,model electrical alias
+mtr outboard vib,motor outboard vibration
+nde seal inlet,nde seal inlet
+oil filter diff,oil filter difference
+oil filter pressure,oil filter pressure
+pmp mtr outboard,pump motor outboard
+pump axial position,pump axial position
+seal filter dp,seal filter dp
+seal outlet pressure,seal outlet pressure
+spray water cv,spray water cv
+st ctrl valve,st control valve
+stg suction temp,stage suction temperature
+valve servo current,valve servo current
+wheelspace rd stg,wheelspace rd stage
+agb chip detector,agb chip detector
+attemp outlet temp,attemperator outlet temperature
+bearing journal vibration,bearing journal vibration
+bearing temp avg,bearing temperature average
+boiler water ph,boiler water ph
+burner outlet temperature,burner outlet temperature
+cep mtr temp,cep motor temperature
+coal air temp,coal air temperature
+compressor discharge temp,compressor discharge temperature
+compressor inlet press,compressor inlet pressure
+cond pump disch,cond pump discharge
+cooler discharge temperature,cooler discharge temperature
+ctrl vlv pos,control valve position
+cw waterbox lp,cw waterbox lp
+de bearing vib,de bearing vibration
+drain valve pos,drain valve position
+drum cat cond,drum cat cond
+fan ob bearing,fan ob bearing
+flame intensity detector,flame intensity detector
+gas mass flow,gas mass flow
+generator bearing vibrations,generator bearing vibration
+gtdl vib sensor,gtdl vibration sensor
+hp attemp outlet,hp attemperator outlet
+hp drum water,hp drum water
+hp drum wtr,hp drum water
+hp ip blowdown,hp ip blowdown
+hrsg outlet temperature,hrsg outlet temperature
+hydraulic control oil,hydraulic control oil
+inactive metal temp,inactive metal temperature
+inlet gas spread,inlet gas spread
+inner barrel temp,inner barrel temperature
+ip desup spray,ip desuperheater spray
+ip steam outlet,ip steam outlet
+journal bearing metal,journal bearing metal
+journal bearing vibrations,journal bearing vibration
+lo cooler outlet,lo cooler outlet
+lp economizer outlet,lp economizer outlet
+lube oil press,lube oil pressure
+metal temp thrust,metal temperature thrust
+metal temp turbine,metal temperature turbine
+motor inboard bearing,motor inboard bearing
+nde buffer gas,nde buffer gas
+ob bearing vibration,ob bearing vibration
+outlet gas temperature,outlet gas temperature
+performance alias compressor,performance alias compressor
+pump thrust bearing,pump thrust bearing
+recycle valve position,recycle valve position
+seal gas flow,seal gas flow
+stator phase winding,stator phase wind
+stator temp phase,stator temperature phase
+steam flow decreased,steam flow decrease
+turbine bearing vibration,turbine bearing vibration
+turbine inner barrel,turbine inner barrel
+drive generator bearing temp,drive generator bearing temperature
+drive generator bearing temperature,drive generator bearing temperature
+generator de bearing temperature,generator de bearing temperature
+gen slipring bearing vib,generator slipring bearing vibration
+rear gen bearing temp,rear generator bearing temperature
+thrust bearing axial position,thrust bearing axial position
+generator bearing temperature nde,generator bearing temperature nde
+generator bearing metal temp,generator bearing metal temperature
+generator bearing temperature de,generator bearing temperature de
