@@ -298,7 +298,9 @@ def printcases(cases,caseId,finalizedUnigrams,finalizedQuadgrams,finalizedTrigra
 
 
 '''
-
+'''
+function to call the steps for each equipmenttype one by one
+'''
 equipmentType='FAN'
 def test(equipmentType):
 #equipmentType="FURNACE"
@@ -384,6 +386,15 @@ equips=[
 
 for i in range(0,25):
     test(equips[i])
+
+
+
+'''''
+We are tryong to see if there are word that we are capturing as keword or the normalized word in the above step is actually from the
+unigram and bigram dictioanry...can be ignored
+
+'''
+
 
 #print(keywords)
 print(len(keywords))
