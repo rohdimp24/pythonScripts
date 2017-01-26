@@ -4,6 +4,8 @@ import psycopg2
 import json
 import pickle
 import pandas as pd
+from sklearn.decomposition import PCA
+import matplotlib.pyplot as plt
 
 #for some reason the user has to be postgres and not root
 '''Db connection'''
@@ -227,6 +229,29 @@ def getVectorized(conn,equipmentType):
     return(lines,countToCaseIdMap,tfSparseMatrix,count_vect,countDtm,df)
 
 
+
+def plotData(tfSparseMatrix):
+    X=tfSparseMatrix.todense()
+    pca = PCA(n_components=2).fit(X)
+    data2D = pca.transform(X)
+    plt.scatter(data2D[:,0], data2D[:,1])
+    plt.show()
+
+
+def plotClusters(tfSparseMatrix, kmResults):
+    X = tfSparseMatrix.todense()
+
+    pca = PCA(n_components=2).fit(X)
+    data2D = pca.transform(X)
+
+    plt.scatter(data2D[:, 0], data2D[:, 1], c=kmResults.labels_)
+    # plt.show()
+    centers2D = pca.transform(kmResults.cluster_centers_)
+    # plt.hold(True)
+    plt.scatter(centers2D[:, 0], centers2D[:, 1],
+                marker='x', s=200, linewidths=3, c='r')
+    plt.show()
+
 '''
 Function Name:performKmeans
 Purpose: performs kmeans clustering using the tf-idf matrix
@@ -433,7 +458,7 @@ def getFreqDistribution(countDtm,vocab):
 
 '''The main code'''
 
-equipmentType="STEAM_TURBINE"
+equipmentType="FAN"
 
 # casesDict, stopwordList = getIntiialize(conn,equipmentType)
 # print(casesDict)
@@ -446,7 +471,13 @@ cases,countToCaseIdMap,tfSparseMatrix,count_vect,countDtm,df=getVectorized(conn,
 print(df)
 
 
+plotData(tfSparseMatrix)
+
+
 km=performKmeans(tfSparseMatrix)
+
+plotClusters(tfSparseMatrix,km)
+
 
 '''Find out how many documents are  in each cluster'''
 clusterDistribution = np.unique(km.labels_, return_counts=True)
@@ -457,6 +488,17 @@ print(clusterDistribution)
 '''the vocabulary of the words'''
 vocab=count_vect.get_feature_names()
 print(vocab)
+
+getFreqDistribution(countDtm,vocab)
+df=pd.DataFrame(countDtm,columns=vocab)
+#to get the rows that satify the column condition ..
+# http://stackoverflow.com/questions/17071871/select-rows-from-a-dataframe-based-on-values-in-a-column-in-pandas
+tt=df.loc[df['_temperature'] == 1]
+tt
+
+print(countToCaseIdMap[70])
+
+print(cases[176])
 
 ''' How the documents are distrbiuted in each cluster..which all cases lie in cluster 1 ..3'''
 
