@@ -33,19 +33,21 @@ def getCases(conn,equipmentType):
     #conn = psycopg2.connect(database='jim', user='postgres', password='root', host='127.0.0.1', port='5432')
     cur = conn.cursor()
     #cur.mogrify("Select id,description from cases.smartsignal_jim_allfields where smartsignal_jim_allfields.equipmentType=%s",(equipmentType,))
-    cur.execute("Select id,description from cases.smartsignal_jim_allfields where \"equipmentType\"=%s ",
+    cur.execute("Select id,description,\"possibleCause\" from cases.smartsignal_jim_allfields where \"equipmentType\"=%s ",
                 (equipmentType,))
 
     rows = cur.fetchall()
 
     cases={}
+    possibleCauses={}
     #display the rows
     for row in rows:
         #print (row[0],row[1])
         #cases[row[0]]={"original":row[1]}
         cases[row[0]]=row[1]
+        possibleCauses[row[0]]=row[2]
 
-    return(cases)
+    return(cases,possibleCauses)
 
 def getIntiialize(conn,equipmentType):
 	# fname = "all_jim_case_large.txt"
@@ -56,7 +58,7 @@ def getIntiialize(conn,equipmentType):
 	# cases = [case.strip() for case in data]
 	# #print(cases[1:10])
     #equipmentType="FAN"
-    cases=getCases(conn,equipmentType)
+    cases,possibleCauses=getCases(conn,equipmentType)
     dictFile = "/Users/305015992/pythonProjects/wordcloud/dict.csv"
     unigramDict = {}
     ngramDict = {}
@@ -73,7 +75,7 @@ def getIntiialize(conn,equipmentType):
                 str = row[0].replace('"', '')
                 unigramDict[str] = row[1].replace('"', '')
 
-    return (cases,unigramDict,ngramDict)
+    return (cases,possibleCauses,unigramDict,ngramDict)
 
 
 
@@ -109,7 +111,7 @@ import json
 def getNormalizedCases(conn,equipmentType):
 
     #equipmentType="FAN"
-    cases,unigramDict,ngramDict=getIntiialize(conn,equipmentType)
+    cases,possibleCauses,unigramDict,ngramDict=getIntiialize(conn,equipmentType)
     #print(cases)
     #print(ngramDict)
     # for key,value in cases.items():
@@ -279,7 +281,7 @@ def getNormalizedCases(conn,equipmentType):
         arrBigramFiltered[key]=str
     #print(arrBigramFiltered)
 
-    return (cases,arrUnigramFiltered,arrQuadgramFiltered,arrTrigramFiltered,arrBigramFiltered)
+    return (cases,possibleCauses,arrUnigramFiltered,arrQuadgramFiltered,arrTrigramFiltered,arrBigramFiltered)
 
 def printcases(cases,caseId,finalizedUnigrams,finalizedQuadgrams,finalizedTrigrams,finalizedBigrams):
     print(cases[caseId])
@@ -307,7 +309,7 @@ def test(equipmentType):
 
 
     print(equipmentType)
-    cases,finalizedUnigrams,finalizedQuadgrams,finalizedTrigrams,finalizedBigrams=getNormalizedCases(conn,equipmentType)
+    cases,possibleCauses,finalizedUnigrams,finalizedQuadgrams,finalizedTrigrams,finalizedBigrams=getNormalizedCases(conn,equipmentType)
 
     print(len(cases),len(finalizedUnigrams),len(finalizedQuadgrams),len(finalizedTrigrams),len(finalizedBigrams))
 
@@ -320,8 +322,8 @@ def test(equipmentType):
     cur = conn.cursor()
     for key in cases:
         #print(cases[key])
-        query = "INSERT INTO cases.smartsignal_normalized_case(id, \"originalCase\", \"normalizedCase\",\"equipmentType\") VALUES (%s, %s, %s,%s);"
-        data = (key, cases[key], finalizedBigrams[key],equipmentType)
+        query = "INSERT INTO cases.smartsignal_normalized_case(id, \"originalCase\", \"normalizedCase\",\"equipmentType\",\"possibleCause\") VALUES (%s, %s, %s,%s,%s);"
+        data = (key, cases[key], finalizedBigrams[key],equipmentType,possibleCauses[key])
         cur.execute(query, data)
 
     conn.commit()
@@ -384,7 +386,7 @@ equips=[
 ]
 
 
-for i in range(0,25):
+for i in range(0,26):
     test(equips[i])
 
 
