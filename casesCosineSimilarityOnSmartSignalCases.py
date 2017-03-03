@@ -1,5 +1,6 @@
 '''
 The script will find the cosine similarity between the cases. The user needs to provide the normalized cases per equipment type
+I guess this is duplicate with the casesCosineSimilarity.py
 '''
 
 import numpy as np
@@ -30,9 +31,8 @@ Variables:
 def getIntiialize(conn,equipmentType):
     cur = conn.cursor()
     # cur.mogrify("Select id,description from cases.smartsignal_jim_allfields where smartsignal_jim_allfields.equipmentType=%s",(equipmentType,))
-    cur.execute("SELECT \"caseId\", \"originalDescription\", \"normalizedDescription\", "
-                "\"originalPossibleCause\", \"normalizedPossibleCause\",  \"equipmentType\", "
-                "category FROM cases.iprc_normalized where \"equipmentType\"=%s",(equipmentType,))
+    cur.execute("SELECT id, \"originalCase\", \"normalizedCase\", "
+                "\"possibleCause\",  \"equipmentType\" FROM cases.smartsignal_normalized_case where \"equipmentType\"=%s",(equipmentType,))
 
     rows = cur.fetchall()
 
@@ -42,14 +42,14 @@ def getIntiialize(conn,equipmentType):
     for row in rows:
         # print (row[0],row[1])
         # cases[row[0]]={"original":row[1]}
-        cases[row[0]] = {"original":row[1],"normalized":row[2]}
-        causes[row[0]] = {"original":row[3],"normalized":row[4]}
+        cases[row[0]] = {"original":row[1],"normalized":row[2],"solution":row[3]}
+        #causes[row[0]] = {"original":row[3],"normalized":row[4]}
 
     stopwordsFile = open('/Users/305015992/pythonProjects/wordcloud/stopwordsss.txt', 'r')
     stopwords = stopwordsFile.read()
     stopwordList = stopwords.split(",")
 
-    return (cases,causes,stopwordList)
+    return (cases,stopwordList)
 
 
 '''
@@ -73,7 +73,7 @@ does the following:
 '''
 def findCosineSimilarity(equipmentType):
 
-    casesDict,causesDict,stopwordList=getIntiialize(conn,equipmentType)
+    casesDict,stopwordList=getIntiialize(conn,equipmentType)
     print(len(casesDict))
 
 
@@ -136,7 +136,9 @@ def findCosineSimilarity(equipmentType):
             angle = getAngleInRadian(ss)
             if(angle<75.0):
                 # print(ss, angle)
-                rr.append({'caseId': countToCaseIdMap[index], 'cosine': angle})
+                caseId=countToCaseIdMap[index]
+                rr.append({'caseId': caseId, 'cosine': angle,'description':casesDict[caseId]['original'],
+                           'solution':casesDict[caseId]['solution']})
         results[countToCaseIdMap[i]] = rr
 
     return(results)
@@ -145,38 +147,6 @@ def findCosineSimilarity(equipmentType):
 # print(json.dumps(results))
 
 equipments=['CONDENSER','PUMP','COMPRESSOR','UNDEFINED','MOTOR','RECIPROCATING_ENGINE']
-
-equipments=[
-  "GENERATOR",
-  "LNG",
-  "UNDEFINED",
-  "HEAT_EXCHANGER",
-  "PUMP",
-  "STEAM_TURBINE",
-  "FURNACE",
-  "CONDENSER",
-  "AIR_HEATER",
-  "WIND_TURBINE",
-  "COMBUSTION_TURBINE",
-  "COOLING_TOWER",
-  "NONE",
-  "COMPRESSOR",
-  "HOT_GAS_EXPANDER",
-  "SUBMERSIBLE_PUMP",
-  "BLOWER",
-  "FEEDWATER_HEATER",
-  "GEARBOX",
-  "FAN",
-  "MOTOR",
-  "CHILLER",
-  "RECIPROCATING_ENGINE",
-  "MILL",
-  "BOILER_FEED_PUMP",
-  "HRSG"
-]
-
-
-
 
 for i in range(len(equipments)):
     equipmentType=equipments[i]
