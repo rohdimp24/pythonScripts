@@ -12,3 +12,6 @@ This is the one that will transform the cases to normalized version of the case 
 
 ## createNGramDictionary.ipynb
 This will create the dictionary based on the ngrm counts, pos, spacy
+
+##casesCosineSimilarityOnSmartSignalCases.py
+This is the the script that will be used to get the similarity scores between the cases descriptions. This is used for the find similar cases workflow
