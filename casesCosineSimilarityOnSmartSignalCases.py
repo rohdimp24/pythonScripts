@@ -1,7 +1,9 @@
-'''
-The script will find the cosine similarity between the cases. The user needs to provide the normalized cases per equipment type
-I guess this is duplicate with the casesCosineSimilarity.py
-'''
+####
+#The script will find the cosine similarity between the cases. The user needs to provide the normalized cases per equipment type
+#This script is the correct script to vbe used to deal with the cases of the IPRC. It actually bundles the description,problem statemsnes
+#etc inside the JSON....09-03-2017
+#
+####
 
 import numpy as np
 from sklearn.cluster import KMeans
@@ -146,7 +148,37 @@ def findCosineSimilarity(equipmentType):
 
 # print(json.dumps(results))
 
-equipments=['CONDENSER','PUMP','COMPRESSOR','UNDEFINED','MOTOR','RECIPROCATING_ENGINE']
+#equipments=['CONDENSER','PUMP','COMPRESSOR','UNDEFINED','MOTOR','RECIPROCATING_ENGINE']
+equipments=[
+  "GENERATOR",
+  "LNG",
+  "UNDEFINED",
+  "HEAT_EXCHANGER",
+  "PUMP",
+  "STEAM_TURBINE",
+  "FURNACE",
+  "CONDENSER",
+  "AIR_HEATER",
+  "WIND_TURBINE",
+  "COMBUSTION_TURBINE",
+  "COOLING_TOWER",
+  "NONE",
+  "COMPRESSOR",
+  "HOT_GAS_EXPANDER",
+  "SUBMERSIBLE_PUMP",
+  "BLOWER",
+  "FEEDWATER_HEATER",
+  "GEARBOX",
+  "FAN",
+  "MOTOR",
+  "CHILLER",
+  "RECIPROCATING_ENGINE",
+  "MILL",
+  "BOILER_FEED_PUMP",
+  "HRSG"
+]
+
+equipments=["COMBUSTION_TURBINE"]
 
 for i in range(len(equipments)):
     equipmentType=equipments[i]
@@ -159,9 +191,5 @@ for i in range(len(equipments)):
     outF = open(fname, "w")
     outF.write(json.dumps(results))
     outF.close()
-
-
-
-#enter into db
 
 
